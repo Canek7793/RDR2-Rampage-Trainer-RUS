@@ -4,6 +4,6 @@
 
 Над русификатором работают: Canek77 (вы также можете присоединиться)
 
-Сам трейнер можно скачать тут: https://ru.gta5-mods.com/scripts/rampage-trainer
+Сам трейнер можно скачать тут: https://www.nexusmods.com/reddeadredemption2/mods/233
 
 Для поддержки донатом: https://www.donationalerts.ru/r/canek77
