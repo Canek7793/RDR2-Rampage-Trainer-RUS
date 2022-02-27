@@ -1,0 +1,233 @@
+<Table>
+	<Meta Author="RUS by Canek77 v.1.0b"/>
+	<!---Главное меню---->
+	<Translation Original="HOME" Replace="ГЛАВНАЯ"/>
+	<Translation Original="Player" Replace="Игрок"/>
+	<Translation Original="Horse" Replace="Лошадь"/>
+	<Translation Original="Weapon" Replace="Оружие"/>
+	<Translation Original="Vehicle" Replace="Транспорт"/>
+	<Translation Original="Teleport" Replace="Телепорт"/>
+	<Translation Original="Spawner" Replace="Спаунер"/>
+	<Translation Original="World" Replace="Мир"/>
+	<Translation Original="Miscellaneous" Replace="Разнообразное"/>
+	<Translation Original="Character Stats" Replace="Характеристики персонажа"/>
+	<Translation Original="Settings" Replace="Настройки"/>
+	
+	<!---Настройки--->
+	<Translation Original="SETTINGS" Replace="НАСТРОЙКИ"/>
+	<Translation Original="Search" Replace="Поиск"/>	
+	<Translation Original="Core" Replace="Основные"/>
+	<Translation Original="Window Manager" Replace="Оконный менеджер"/>
+	<Translation Original="Extended UI" Replace="Расширенный интерфейс"/>
+	<Translation Original="Theme" Replace="Темы"/>
+	<Translation Original="Plugins" Replace="Плагины"/>
+	<Translation Original="Language" Replace="Языки"/>
+	<Translation Original="Hotkey Manager" Replace="Менеджер клавиш"/>
+	<Translation Original="Load / Save" Replace="Загрузить / Сохранить"/>
+	<Translation Original="Navigation Delay" Replace="Задержка навигации"/>
+	<Translation Original="Value Delay" Replace="Задержка значения"/>
+	<Translation Original="Open Key" Replace="Открыть клавишей"/>
+	<Translation Original="Gamepad Open Key" Replace="Открыть геймпадом"/>
+	
+	<!---Прочие--->
+	<Translation Original="TRAINER SEARCH" Replace="ПОИСК ТРЕНЕРА"/>
+	<Translation Original="Search for an Option" Replace="Поиск варианта"/>	
+	<Translation Original="HORSE LOADER" Replace="ЗАГРУЗЧИК ЛОШАДЕЙ"/>
+	<Translation Original="No files found" Replace="Файлы не найдены"/>
+	<Translation Original="Disable" Replace="Отключить"/>
+	<Translation Original="Set Hotkey" Replace="Установить горячую клавишу"/>
+	<Translation Original="HORSE BLIP" Replace="ТЕЛЕПОРТ ЛОШАДИ"/>
+	<Translation Original="Add Blip" Replace="Добавить блип"/>
+	<Translation Original="Teleport to blip horse" Replace="Телепортируйтесь к лошади"/>
+	<Translation Original="Teleport blip horse to you" Replace="Телепортируйте к себе лошадь"/>
+	<Translation Original="HORSE [NOT ON HORSE]" Replace="ЛОШАДЬ [НЕ НА ЛОШАДИ]"/>
+	<Translation Original="Teleport horse to me" Replace="Телепортировать лошадь ко мне"/>
+	<Translation Original="Teleport to horse" Replace="Телепортироваться к лошади"/>
+	<Translation Original="Revive own horse" Replace="Оживить собственную лошадь"/>
+	<Translation Original="Show on Map" Replace="Показать на карте"/>
+	<Translation Original="Save current horse" Replace="Сохранить текущую лошадь"/>
+	<Translation Original="LOAD HORSE" Replace="ЗАГРУЗИТЬ ЛОШАДЬ"/>	
+	<Translation Original="Open" Replace="Открыть"/>
+	<Translation Original="Cursor" Replace="Курсор"/>		
+	<Translation Original="Enter Hotkey" Replace="Введите горячую клавишу"/>	
+	<Translation Original="LANGUAGE" Replace="ЯЗЫКИ"/>		
+	<Translation Original="Default" Replace="По умолчанию"/>	
+	<Translation Original="PLUGIN" Replace="ПЛАГИН"/>		
+	<Translation Original="No Plugins found" Replace="Плагины не найдены"/>	
+	
+	<!---РАСШИРЕННЫЙ ИНТЕРФЕЙС--->
+	<Translation Original="EXTENDED UI" Replace="РАСШИРЕННЫЙ ИНТЕРФЕЙС"/>
+	<Translation Original="Open Info" Replace="Открыть информацию"/>	
+	<Translation Original="Window Activators" Replace="Оконные активаторы"/>
+	<Translation Original="Teleport map" Replace="Карта телепорта"/>
+	<Translation Original="Spawner Previews" Replace="Превью спавнера"/>
+	<Translation Original="Invert Colors" Replace="Инвертировать цвета"/>
+	<Translation Original="Smooth Scrolling" Replace="Плавная прокрутка"/>
+	<Translation Original="Scroll Anim Speed" Replace="Скорость анимации прокрутки"/>
+	
+	<!---ЛОШАДЬ--->
+	<Translation Original="HORSE" Replace="ЛОШАДЬ"/>
+	<Translation Original="Stats" Replace="Статистика"/>	
+	<Translation Original="Mobile Stable" Replace="Мобильный стабильный"/>
+	<Translation Original="Blip" Replace="Блип"/>
+	<Translation Original="Invincible" Replace="Неуязвимый"/>
+	<Translation Original="Invisible" Replace="Невидимый"/>
+	<Translation Original="Stamina Never Drain" Replace="Выносливость не истощается"/>
+	<Translation Original="Never Ragdoll" Replace="Never Ragdoll"/>
+	<Translation Original="Remove Pelts" Replace="Удалить шкурки"/>
+	<Translation Original="Kill" Replace="Убить"/>
+	<Translation Original="Delete" Replace="Удалить"/>
+	<Translation Original="HORSE SPAWNER" Replace="ЛОШАДИНЫЙ СПАВНЕР"/>
+	<Translation Original="Gender" Replace="Пол"/>	
+	<Translation Original="Male" Replace="Мужской"/>
+	<Translation Original="Female" Replace="Женский"/>
+	
+	<!---МИР--->
+	<Translation Original="WORLD" Replace="МИР"/>
+	<Translation Original="Time" Replace="Время"/>	
+	<Translation Original="Weather" Replace="Погода"/>
+	<Translation Original="Water" Replace="Вода"/>
+	<Translation Original="Cloud Editor" Replace="Редактор облаков"/>
+	<Translation Original="Ped Manager" Replace="Пед менеджер"/>
+	<Translation Original="Vehicle Manager" Replace="Менеджер транспортных средств"/>
+	<Translation Original="Object Manager" Replace="Менеджер объектов"/>
+	<Translation Original="Tornado & Black Hole" Replace="Торнадо и черная дыра"/>
+	<Translation Original="IPL Loader" Replace="IPL Загрузчик"/>
+	<Translation Original="Ambient Light" Replace="Окружающий свет"/>
+	<Translation Original="Disable Interior Lightning" Replace="Отключить внутреннюю подсветку"/>
+	<Translation Original="Firework Mode" Replace="Режим фейерверка"/>
+	<Translation Original="Giant Mode" Replace="Режим гиганта"/>
+	<Translation Original="No Gravity" Replace="Без гравитации"/>
+	<Translation Original="Decrease Ped Population" Replace="Снижение численности пешеходов"/>
+	<Translation Original="Decrease Vehicle Population" Replace="Снижение численности транспорта"/>
+	<Translation Original="Delete All Trains" Replace="Удалить все поезда"/>
+	<Translation Original="Delete All Pickups" Replace="Удалить все подборки"/>
+	<Translation Original="Area Scale" Replace="Масштаб территории"/>
+	<Translation Original="Clear Area" Replace="Очистить область"/>
+	<Translation Original="Cleanup Area" Replace="Зона очистки"/>
+	<Translation Original="Quick Camp" Replace="Быстрый лагерь"/>
+	
+	<!---ТЕМЫ--->
+	<Translation Original="THEME" Replace="ТЕМА"/>
+	<Translation Original="Premade themes" Replace="Готовые темы"/>
+	<Translation Original="Main Font" Replace="Основной шрифт"/>
+	<Translation Original="Body Font" Replace="Шрифт корпуса"/>
+	<Translation Original="Enable Header" Replace="Включить заголовок"/>
+	<Translation Original="Primary" Replace="Основной"/>
+	<Translation Original="Title Text" Replace="Текст заголовка"/>
+	<Translation Original="Header Color" Replace="Цвет заголовка"/>
+	<Translation Original="Scroller Color" Replace="Цвет скроллера"/>
+	<Translation Original="RGB Mode" Replace="Режим RGB"/>
+	<Translation Original="Menu" Replace="Меню"/>
+	<Translation Original="CUSTOMIZE" Replace="НАСТРОЙКА"/>	
+	<Translation Original="AMBIENT LIGHT" Replace="ОКРУЖАЮЩИЙ СВЕТ"/>
+	<Translation Original="Toggle" Replace="Переключить"/>
+	<Translation Original="Color" Replace="Цвет"/>
+	<Translation Original="Range" Replace="Диапазон"/>
+	<Translation Original="Brightness" Replace="Яркость"/>	
+	<Translation Original="Style" Replace="Стиль"/>	
+	<Translation Original="Menu X axis" Replace="Меню оси X"/>
+	<Translation Original="Menu Y axis" Replace="Меню оси Y"/>
+	<Translation Original="Restore" Replace="Восстановить"/>
+	<Translation Original="Load optimal defaults" Replace="Установить стандартные значения"/>	
+	<Translation Original="PREMADE THEMES" Replace="ЗАГОТОВЛЕННЫЕ ТЕМЫ"/>
+
+	<!---ВРЕМЯ--->
+	<Translation Original="TIME" Replace="ВРЕМЯ"/>
+	<Translation Original="Hour" Replace="Час"/>
+	<Translation Original="Minute" Replace="Минута"/>
+	<Translation Original="Second" Replace="Секунда"/>
+	<Translation Original="Day" Replace="День"/>
+	<Translation Original="Month" Replace="Месяц"/>
+	<Translation Original="Year" Replace="Год"/>
+	<Translation Original="Milliseconds per Game Minute" Replace="Миллисекунды в минуту игры"/>
+	<Translation Original="Force Milliseconds per Game Minute" Replace="Принудительно миллисекунды в минуту"/>
+	<Translation Original="Stop Time" Replace="Остановить время"/>
+	<Translation Original="Time Cycle" Replace="Временной цикл"/>
+	<Translation Original="Set Time" Replace="Установить время"/>	
+	<Translation Original="Sunrise" Replace="Восход"/>
+	<Translation Original="Midday" Replace="Полдень"/>
+	<Translation Original="Sunset" Replace="Закат"/>
+	<Translation Original="Midnight" Replace="Полночь"/>
+	<Translation Original="Sync System Time" Replace="Синхронизация системного времени"/>
+	<Translation Original="TIMELAPSE" Replace="ПРОМЕЖУТОК ВРЕМЕНИ"/>
+	<Translation Original="Timelapse mode" Replace="Режим замедленной съемки"/>
+	<Translation Original="Timelapse Toggle" Replace="Переключение временных интервалов"/>
+
+	<!---ОКОННЫЙ МЕНЕДЖЕР--->
+	<Translation Original="WINDOW MANAGER" Replace="ОКОННЫЙ МЕНЕДЖЕР"/>
+	<Translation Original="Open Log" Replace="Открыть журнал"/>
+	<Translation Original="Open Sysinfo" Replace="Открыть системную информацию"/>
+	<Translation Original="Open Performance" Replace="Открыть производительность"/>
+	<Translation Original="Open Hotkeys" Replace="Открыть горячие клавиши"/>
+	<Translation Original="Close all" Replace="Закрыть все"/>
+	<Translation Original="Reset Windows" Replace="Сброс оконных настроек"/>
+	
+	<!---ОСНОВНЫЕ НАСТРОЙКИ--->
+	<Translation Original="CORE SETTINGS" Replace="ОСНОВНЫЕ НАСТРОЙКИ"/>
+	<Translation Original="Debug" Replace="Отладка"/>
+	<Translation Original="Mouse controls" Replace="Управление мышью"/>
+	<Translation Original="Controller controls" Replace="Управление контроллером"/>
+	<Translation Original="Menu Sounds" Replace="Звуки меню"/>
+	<Translation Original="Check for Updates" Replace="Проверить наличие обновлений"/>
+	<Translation Original="Landing Page" Replace="Целевая страница"/>
+
+	<!---ИГРОК--->
+	<Translation Original="PLAYER" Replace="ИГРОК"/>
+	<Translation Original="Godmode" Replace="Режим бога"/>
+	
+	<!---ДЕНЬГИ--->
+	<Translation Original="MONEY" Replace="ДЕНЬГИ"/>
+	<Translation Original="Add Cash" Replace="Добавить деньги"/>
+	<Translation Original="Remove Cash" Replace="Удалить деньги"/>
+	<Translation Original="Drop Cash" Replace="Выпадение наличных"/>
+	
+	<!---СТАТИСТИКА--->
+	<Translation Original="STATS" Replace="СТАТИСТИКА"/>
+	<Translation Original="Misc" Replace="Разное"/>
+	<Translation Original="Cash" Replace="Деньги"/>
+	<Translation Original="Loot" Replace="Добыча"/>
+	<Translation Original="Honor" Replace="Честь"/>
+	<Translation Original="Bounty" Replace="Награда"/>
+	<Translation Original="Unlocks" Replace="Разблокировщик"/>
+	<Translation Original="Collectibles" Replace="Коллекционные предметы"/>	
+	<Translation Original="Cores" Replace="Ядра"/>
+	<Translation Original="Reveal Map" Replace="Раскрыть карту"/>
+	
+    <!---РАЗНООБРАЗНОЕ--->
+	<Translation Original="MISCELLANEOUS" Replace="РАЗНООБРАЗНОЕ"/>
+    <Translation Original="Mp3 Player" Replace="MP3 Плеер"/>
+    <Translation Original="Game Music" Replace="Игровая музыка"/>
+    <Translation Original="Mobile Theater" Replace="Мобильный театр"/>
+    <Translation Original="Cutscene Player" Replace="Катсцена игрока"/>
+    <Translation Original="Friendlist" Replace="Список друзей"/>
+    <Translation Original="Minigames" Replace="Мини-игры"/>
+    <Translation Original="Overlay Settings" Replace="Настройки оверлея"/>
+    <Translation Original="Cam Zoom" Replace="Увеличение камеры"/>
+    <Translation Original="Top-Down Cam" Replace="Камера сверху вниз"/>
+    <Translation Original="No Clip" Replace="No Clip"/>
+    <Translation Original="Air Walk" Replace="Воздушная прогулка"/>
+    <Translation Original="Freecam" Replace="Свободная камера"/>
+    <Translation Original="Cap FPS" Replace="Ограничение FPS"/>
+    <Translation Original="Disable Idle Music" Replace="Отключить музыку при ожидании"/>
+    <Translation Original="Pause Game" Replace="Приостановить игру"/>
+    <Translation Original="Decrease Graphics" Replace="Сниженная графика"/>
+    <Translation Original="Disable New Austin Sniper" Replace="Отключить New Austin Sniper"/>
+    <Translation Original="Disable Guard Zones" Replace="Отключить охранные зоны"/>
+    <Translation Original="No Weapon Wheel Slo-Down" Replace="Нет замедления колеса оружия"/>
+    <Translation Original="Take a Photo" Replace="Сфотографировать"/>
+    <Translation Original="Fix Mission Markers" Replace="Фикс маркеров миссий"/>
+    <Translation Original="Send Console Message" Replace="Отправить консольное сообщение"/>
+    <Translation Original="About Rampage" Replace="О Rampage"/>
+    <Translation Original="Dev" Replace="Dev"/>
+    <Translation Original="Script Monitor" Replace="Скрипт монитора"/>
+    <Translation Original="Script Loader" Replace="Скрипт загрузки"/>
+    <Translation Original="Script Terminator" Replace="Скрипт терминатор"/>
+
+    <!---ЗАГРУЗКА--->
+	<Translation Original="LOAD / SAVE SETTINGS" Replace="ЗАГРУЗКА / СОХРАНЕНИЕ НАСТРОЕК"/>
+    <Translation Original="Save current settings" Replace="Сохранить текущие настройки"/>
+    <Translation Original="Load settings from file" Replace="Загрузка настроек из файла"/>
+    <Translation Original="Toggles" Replace="Переключатели"/>
+    <Translation Original="Sync Toggle Config" Replace="Конфиг переключения синхронизации"/>
+</Table>
