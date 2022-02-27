@@ -194,40 +194,40 @@
 	<Translation Original="Cores" Replace="Ядра"/>
 	<Translation Original="Reveal Map" Replace="Раскрыть карту"/>
 	
-    <!---РАЗНООБРАЗНОЕ--->
+        <!---РАЗНООБРАЗНОЕ--->
 	<Translation Original="MISCELLANEOUS" Replace="РАЗНООБРАЗНОЕ"/>
-    <Translation Original="Mp3 Player" Replace="MP3 Плеер"/>
-    <Translation Original="Game Music" Replace="Игровая музыка"/>
-    <Translation Original="Mobile Theater" Replace="Мобильный театр"/>
-    <Translation Original="Cutscene Player" Replace="Катсцена игрока"/>
-    <Translation Original="Friendlist" Replace="Список друзей"/>
-    <Translation Original="Minigames" Replace="Мини-игры"/>
-    <Translation Original="Overlay Settings" Replace="Настройки оверлея"/>
-    <Translation Original="Cam Zoom" Replace="Увеличение камеры"/>
-    <Translation Original="Top-Down Cam" Replace="Камера сверху вниз"/>
-    <Translation Original="No Clip" Replace="No Clip"/>
-    <Translation Original="Air Walk" Replace="Воздушная прогулка"/>
-    <Translation Original="Freecam" Replace="Свободная камера"/>
-    <Translation Original="Cap FPS" Replace="Ограничение FPS"/>
-    <Translation Original="Disable Idle Music" Replace="Отключить музыку при ожидании"/>
-    <Translation Original="Pause Game" Replace="Приостановить игру"/>
-    <Translation Original="Decrease Graphics" Replace="Сниженная графика"/>
-    <Translation Original="Disable New Austin Sniper" Replace="Отключить New Austin Sniper"/>
-    <Translation Original="Disable Guard Zones" Replace="Отключить охранные зоны"/>
-    <Translation Original="No Weapon Wheel Slo-Down" Replace="Нет замедления колеса оружия"/>
-    <Translation Original="Take a Photo" Replace="Сфотографировать"/>
-    <Translation Original="Fix Mission Markers" Replace="Фикс маркеров миссий"/>
-    <Translation Original="Send Console Message" Replace="Отправить консольное сообщение"/>
-    <Translation Original="About Rampage" Replace="О Rampage"/>
-    <Translation Original="Dev" Replace="Dev"/>
-    <Translation Original="Script Monitor" Replace="Скрипт монитора"/>
-    <Translation Original="Script Loader" Replace="Скрипт загрузки"/>
-    <Translation Original="Script Terminator" Replace="Скрипт терминатор"/>
+        <Translation Original="Mp3 Player" Replace="MP3 Плеер"/>
+        <Translation Original="Game Music" Replace="Игровая музыка"/>
+        <Translation Original="Mobile Theater" Replace="Мобильный театр"/>
+        <Translation Original="Cutscene Player" Replace="Катсцена игрока"/>
+        <Translation Original="Friendlist" Replace="Список друзей"/>
+        <Translation Original="Minigames" Replace="Мини-игры"/>
+        <Translation Original="Overlay Settings" Replace="Настройки оверлея"/>
+        <Translation Original="Cam Zoom" Replace="Увеличение камеры"/>
+        <Translation Original="Top-Down Cam" Replace="Камера сверху вниз"/>
+        <Translation Original="No Clip" Replace="No Clip"/>
+        <Translation Original="Air Walk" Replace="Воздушная прогулка"/>
+        <Translation Original="Freecam" Replace="Свободная камера"/>
+        <Translation Original="Cap FPS" Replace="Ограничение FPS"/>
+        <Translation Original="Disable Idle Music" Replace="Отключить музыку при ожидании"/>
+        <Translation Original="Pause Game" Replace="Приостановить игру"/>
+        <Translation Original="Decrease Graphics" Replace="Сниженная графика"/>
+        <Translation Original="Disable New Austin Sniper" Replace="Отключить New Austin Sniper"/>
+        <Translation Original="Disable Guard Zones" Replace="Отключить охранные зоны"/>
+        <Translation Original="No Weapon Wheel Slo-Down" Replace="Нет замедления колеса оружия"/>
+        <Translation Original="Take a Photo" Replace="Сфотографировать"/>
+        <Translation Original="Fix Mission Markers" Replace="Фикс маркеров миссий"/>
+        <Translation Original="Send Console Message" Replace="Отправить консольное сообщение"/>
+        <Translation Original="About Rampage" Replace="О Rampage"/>
+        <Translation Original="Dev" Replace="Dev"/>
+        <Translation Original="Script Monitor" Replace="Скрипт монитора"/>
+        <Translation Original="Script Loader" Replace="Скрипт загрузки"/>
+        <Translation Original="Script Terminator" Replace="Скрипт терминатор"/>
 
-    <!---ЗАГРУЗКА--->
-	<Translation Original="LOAD / SAVE SETTINGS" Replace="ЗАГРУЗКА / СОХРАНЕНИЕ НАСТРОЕК"/>
-    <Translation Original="Save current settings" Replace="Сохранить текущие настройки"/>
-    <Translation Original="Load settings from file" Replace="Загрузка настроек из файла"/>
-    <Translation Original="Toggles" Replace="Переключатели"/>
-    <Translation Original="Sync Toggle Config" Replace="Конфиг переключения синхронизации"/>
+        <!---ЗАГРУЗКА--->
+        <Translation Original="LOAD / SAVE SETTINGS" Replace="ЗАГРУЗКА / СОХРАНЕНИЕ НАСТРОЕК"/>
+        <Translation Original="Save current settings" Replace="Сохранить текущие настройки"/>
+        <Translation Original="Load settings from file" Replace="Загрузка настроек из файла"/>
+        <Translation Original="Toggles" Replace="Переключатели"/>
+        <Translation Original="Sync Toggle Config" Replace="Конфиг переключения синхронизации"/>
 </Table>
