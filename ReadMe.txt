@@ -1,6 +1,6 @@
 Русский перевод для трейнера Rampage, который используется для игры RDR2.
 
-Установить файл Russian.xml по примеру пути C:\Games\RDR2\RampageFiles\Language
+Установить файл Russian.xml по примеру пути C:\Games\Red Dead Redemption 2\RampageFiles\Language
 
 Над русификатором работают: Canek77 (вы также можете присоединиться)
 
