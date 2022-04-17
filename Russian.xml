@@ -1,233 +1,1565 @@
 <Table>
-	<Meta Author="RUS by Canek77 v.1.0b"/>
-	<!---Главное меню---->
-	<Translation Original="HOME" Replace="ГЛАВНАЯ"/>
-	<Translation Original="Player" Replace="Игрок"/>
-	<Translation Original="Horse" Replace="Лошадь"/>
-	<Translation Original="Weapon" Replace="Оружие"/>
-	<Translation Original="Vehicle" Replace="Транспорт"/>
-	<Translation Original="Teleport" Replace="Телепорт"/>
-	<Translation Original="Spawner" Replace="Спаунер"/>
-	<Translation Original="World" Replace="Мир"/>
-	<Translation Original="Miscellaneous" Replace="Разнообразное"/>
-	<Translation Original="Character Stats" Replace="Характеристики персонажа"/>
-	<Translation Original="Settings" Replace="Настройки"/>
-	
-	<!---Настройки--->
-	<Translation Original="SETTINGS" Replace="НАСТРОЙКИ"/>
-	<Translation Original="Search" Replace="Поиск"/>	
-	<Translation Original="Core" Replace="Основные"/>
-	<Translation Original="Window Manager" Replace="Оконный менеджер"/>
-	<Translation Original="Extended UI" Replace="Расширенный интерфейс"/>
-	<Translation Original="Theme" Replace="Темы"/>
-	<Translation Original="Plugins" Replace="Плагины"/>
-	<Translation Original="Language" Replace="Языки"/>
-	<Translation Original="Hotkey Manager" Replace="Менеджер клавиш"/>
-	<Translation Original="Load / Save" Replace="Загрузить / Сохранить"/>
-	<Translation Original="Navigation Delay" Replace="Задержка навигации"/>
-	<Translation Original="Value Delay" Replace="Задержка значения"/>
-	<Translation Original="Open Key" Replace="Открыть клавишей"/>
-	<Translation Original="Gamepad Open Key" Replace="Открыть геймпадом"/>
-	
-	<!---Прочие--->
-	<Translation Original="TRAINER SEARCH" Replace="ПОИСК ТРЕНЕРА"/>
-	<Translation Original="Search for an Option" Replace="Поиск варианта"/>	
-	<Translation Original="HORSE LOADER" Replace="ЗАГРУЗЧИК ЛОШАДЕЙ"/>
-	<Translation Original="No files found" Replace="Файлы не найдены"/>
-	<Translation Original="Disable" Replace="Отключить"/>
-	<Translation Original="Set Hotkey" Replace="Установить горячую клавишу"/>
-	<Translation Original="HORSE BLIP" Replace="ТЕЛЕПОРТ ЛОШАДИ"/>
-	<Translation Original="Add Blip" Replace="Добавить блип"/>
-	<Translation Original="Teleport to blip horse" Replace="Телепортируйтесь к лошади"/>
-	<Translation Original="Teleport blip horse to you" Replace="Телепортируйте к себе лошадь"/>
-	<Translation Original="HORSE [NOT ON HORSE]" Replace="ЛОШАДЬ [НЕ НА ЛОШАДИ]"/>
-	<Translation Original="Teleport horse to me" Replace="Телепортировать лошадь ко мне"/>
-	<Translation Original="Teleport to horse" Replace="Телепортироваться к лошади"/>
-	<Translation Original="Revive own horse" Replace="Оживить собственную лошадь"/>
-	<Translation Original="Show on Map" Replace="Показать на карте"/>
-	<Translation Original="Save current horse" Replace="Сохранить текущую лошадь"/>
-	<Translation Original="LOAD HORSE" Replace="ЗАГРУЗИТЬ ЛОШАДЬ"/>	
-	<Translation Original="Open" Replace="Открыть"/>
-	<Translation Original="Cursor" Replace="Курсор"/>		
-	<Translation Original="Enter Hotkey" Replace="Введите горячую клавишу"/>	
-	<Translation Original="LANGUAGE" Replace="ЯЗЫКИ"/>		
-	<Translation Original="Default" Replace="По умолчанию"/>	
-	<Translation Original="PLUGIN" Replace="ПЛАГИН"/>		
-	<Translation Original="No Plugins found" Replace="Плагины не найдены"/>	
-	
-	<!---РАСШИРЕННЫЙ ИНТЕРФЕЙС--->
-	<Translation Original="EXTENDED UI" Replace="РАСШИРЕННЫЙ ИНТЕРФЕЙС"/>
-	<Translation Original="Open Info" Replace="Открыть информацию"/>	
-	<Translation Original="Window Activators" Replace="Оконные активаторы"/>
-	<Translation Original="Teleport map" Replace="Карта телепорта"/>
-	<Translation Original="Spawner Previews" Replace="Превью спавнера"/>
-	<Translation Original="Invert Colors" Replace="Инвертировать цвета"/>
-	<Translation Original="Smooth Scrolling" Replace="Плавная прокрутка"/>
-	<Translation Original="Scroll Anim Speed" Replace="Скорость анимации прокрутки"/>
-	
-	<!---ЛОШАДЬ--->
-	<Translation Original="HORSE" Replace="ЛОШАДЬ"/>
-	<Translation Original="Stats" Replace="Статистика"/>	
-	<Translation Original="Mobile Stable" Replace="Мобильный стабильный"/>
-	<Translation Original="Blip" Replace="Блип"/>
-	<Translation Original="Invincible" Replace="Неуязвимый"/>
-	<Translation Original="Invisible" Replace="Невидимый"/>
-	<Translation Original="Stamina Never Drain" Replace="Выносливость не истощается"/>
-	<Translation Original="Never Ragdoll" Replace="Never Ragdoll"/>
-	<Translation Original="Remove Pelts" Replace="Удалить шкурки"/>
-	<Translation Original="Kill" Replace="Убить"/>
-	<Translation Original="Delete" Replace="Удалить"/>
-	<Translation Original="HORSE SPAWNER" Replace="ЛОШАДИНЫЙ СПАВНЕР"/>
-	<Translation Original="Gender" Replace="Пол"/>	
-	<Translation Original="Male" Replace="Мужской"/>
-	<Translation Original="Female" Replace="Женский"/>
-	
-	<!---МИР--->
-	<Translation Original="WORLD" Replace="МИР"/>
-	<Translation Original="Time" Replace="Время"/>	
-	<Translation Original="Weather" Replace="Погода"/>
-	<Translation Original="Water" Replace="Вода"/>
-	<Translation Original="Cloud Editor" Replace="Редактор облаков"/>
-	<Translation Original="Ped Manager" Replace="Пед менеджер"/>
-	<Translation Original="Vehicle Manager" Replace="Менеджер транспортных средств"/>
-	<Translation Original="Object Manager" Replace="Менеджер объектов"/>
-	<Translation Original="Tornado & Black Hole" Replace="Торнадо и черная дыра"/>
-	<Translation Original="IPL Loader" Replace="IPL Загрузчик"/>
-	<Translation Original="Ambient Light" Replace="Окружающий свет"/>
-	<Translation Original="Disable Interior Lightning" Replace="Отключить внутреннюю подсветку"/>
-	<Translation Original="Firework Mode" Replace="Режим фейерверка"/>
-	<Translation Original="Giant Mode" Replace="Режим гиганта"/>
-	<Translation Original="No Gravity" Replace="Без гравитации"/>
-	<Translation Original="Decrease Ped Population" Replace="Снижение численности пешеходов"/>
-	<Translation Original="Decrease Vehicle Population" Replace="Снижение численности транспорта"/>
-	<Translation Original="Delete All Trains" Replace="Удалить все поезда"/>
-	<Translation Original="Delete All Pickups" Replace="Удалить все подборки"/>
-	<Translation Original="Area Scale" Replace="Масштаб территории"/>
-	<Translation Original="Clear Area" Replace="Очистить область"/>
-	<Translation Original="Cleanup Area" Replace="Зона очистки"/>
-	<Translation Original="Quick Camp" Replace="Быстрый лагерь"/>
-	
-	<!---ТЕМЫ--->
-	<Translation Original="THEME" Replace="ТЕМА"/>
-	<Translation Original="Premade themes" Replace="Готовые темы"/>
-	<Translation Original="Main Font" Replace="Основной шрифт"/>
-	<Translation Original="Body Font" Replace="Шрифт корпуса"/>
-	<Translation Original="Enable Header" Replace="Включить заголовок"/>
-	<Translation Original="Primary" Replace="Основной"/>
-	<Translation Original="Title Text" Replace="Текст заголовка"/>
-	<Translation Original="Header Color" Replace="Цвет заголовка"/>
-	<Translation Original="Scroller Color" Replace="Цвет скроллера"/>
-	<Translation Original="RGB Mode" Replace="Режим RGB"/>
-	<Translation Original="Menu" Replace="Меню"/>
-	<Translation Original="CUSTOMIZE" Replace="НАСТРОЙКА"/>	
-	<Translation Original="AMBIENT LIGHT" Replace="ОКРУЖАЮЩИЙ СВЕТ"/>
-	<Translation Original="Toggle" Replace="Переключить"/>
-	<Translation Original="Color" Replace="Цвет"/>
-	<Translation Original="Range" Replace="Диапазон"/>
-	<Translation Original="Brightness" Replace="Яркость"/>	
-	<Translation Original="Style" Replace="Стиль"/>	
-	<Translation Original="Menu X axis" Replace="Меню оси X"/>
-	<Translation Original="Menu Y axis" Replace="Меню оси Y"/>
-	<Translation Original="Restore" Replace="Восстановить"/>
-	<Translation Original="Load optimal defaults" Replace="Установить стандартные значения"/>	
-	<Translation Original="PREMADE THEMES" Replace="ЗАГОТОВЛЕННЫЕ ТЕМЫ"/>
+<Meta Author="Canek77 v.1.0"/>
 
-	<!---ВРЕМЯ--->
-	<Translation Original="TIME" Replace="ВРЕМЯ"/>
-	<Translation Original="Hour" Replace="Час"/>
-	<Translation Original="Minute" Replace="Минута"/>
-	<Translation Original="Second" Replace="Секунда"/>
-	<Translation Original="Day" Replace="День"/>
-	<Translation Original="Month" Replace="Месяц"/>
-	<Translation Original="Year" Replace="Год"/>
-	<Translation Original="Milliseconds per Game Minute" Replace="Миллисекунды в минуту игры"/>
-	<Translation Original="Force Milliseconds per Game Minute" Replace="Принудительно миллисекунды в минуту"/>
-	<Translation Original="Stop Time" Replace="Остановить время"/>
-	<Translation Original="Time Cycle" Replace="Временной цикл"/>
-	<Translation Original="Set Time" Replace="Установить время"/>	
-	<Translation Original="Sunrise" Replace="Восход"/>
-	<Translation Original="Midday" Replace="Полдень"/>
-	<Translation Original="Sunset" Replace="Закат"/>
-	<Translation Original="Midnight" Replace="Полночь"/>
-	<Translation Original="Sync System Time" Replace="Синхронизация системного времени"/>
-	<Translation Original="TIMELAPSE" Replace="ПРОМЕЖУТОК ВРЕМЕНИ"/>
-	<Translation Original="Timelapse mode" Replace="Режим замедленной съемки"/>
-	<Translation Original="Timelapse Toggle" Replace="Переключение временных интервалов"/>
+//Главная
+<Translation Original="Player" Replace="Игрок"/>
+<Translation Original="Horse" Replace="Лошадь"/>
+<Translation Original="Weapon" Replace="Оружие"/>
+<Translation Original="Vehicle" Replace="Транспорт"/>
+<Translation Original="Teleport" Replace="Телепорт"/>
+<Translation Original="Spawner" Replace="Спаунер"/>
+<Translation Original="World" Replace="Мир"/>
+<Translation Original="Miscellaneous" Replace="Разнообразное"/>
+<Translation Original="Character Stats" Replace="Характеристики персонажа"/>
+<Translation Original="Settings" Replace="Настройки"/>
+<Translation Original="HOME" Replace="ГЛАВНАЯ"/>
+<Translation Original="PLAYER" Replace="ИГРОК"/>
+<Translation Original="HORSE" Replace="ЛОШАДЬ"/>
+<Translation Original="WEAPONS" Replace="ОРУЖИЕ"/>
+<Translation Original="VEHICLE" Replace="ТРАНСПОРТ"/>
+<Translation Original="TELEPORT" Replace="ТЕЛЕПОРТ"/>
+<Translation Original="SPAWNER" Replace="СПАУНЕР"/>
+<Translation Original="WORLD" Replace="МИР"/>
+<Translation Original="MISCELLANEOUS" Replace="РАЗНООБРАЗНОЕ"/>
+<Translation Original="CHARACTER STATS" Replace="ХАРАКТЕРИСТИКИ ПЕРСОНАЖА"/>
+<Translation Original="SETTINGS" Replace="НАСТРОЙКИ"/>
 
-	<!---ОКОННЫЙ МЕНЕДЖЕР--->
-	<Translation Original="WINDOW MANAGER" Replace="ОКОННЫЙ МЕНЕДЖЕР"/>
-	<Translation Original="Open Log" Replace="Открыть журнал"/>
-	<Translation Original="Open Sysinfo" Replace="Открыть системную информацию"/>
-	<Translation Original="Open Performance" Replace="Открыть производительность"/>
-	<Translation Original="Open Hotkeys" Replace="Открыть горячие клавиши"/>
-	<Translation Original="Close all" Replace="Закрыть все"/>
-	<Translation Original="Reset Windows" Replace="Сброс оконных настроек"/>
-	
-	<!---ОСНОВНЫЕ НАСТРОЙКИ--->
-	<Translation Original="CORE SETTINGS" Replace="ОСНОВНЫЕ НАСТРОЙКИ"/>
-	<Translation Original="Debug" Replace="Отладка"/>
-	<Translation Original="Mouse controls" Replace="Управление мышью"/>
-	<Translation Original="Controller controls" Replace="Управление контроллером"/>
-	<Translation Original="Menu Sounds" Replace="Звуки меню"/>
-	<Translation Original="Check for Updates" Replace="Проверить наличие обновлений"/>
-	<Translation Original="Landing Page" Replace="Целевая страница"/>
+//Игрок
+<Translation Original="SCENARIOS" Replace="СЦЕНАРИИ"/>
+<Translation Original="EFFECTS" Replace="ЭФФЕКТЫ"/>
+<Translation Original="Scenarios" Replace="Сценарии"/>
+<Translation Original="Animations" Replace="Анимация"/>
+<Translation Original="Wardrobe" Replace="Гардероб"/>
+<Translation Original="Vision" Replace="Вид"/>
+<Translation Original="Effects" Replace="Эффекты"/>
+<Translation Original="Emotes" Replace="Эмоции"/>
+<Translation Original="Play Speech" Replace="Воспроизвести речь"/>
+<Translation Original="Moods" Replace="Настроения"/>
+<Translation Original="Abilities" Replace="Способности"/>
+<Translation Original="Player Proofs" Replace="Испытания игроков"/>
+<Translation Original="Godmode" Replace="Режим бога"/>
+<Translation Original="Auto Heal" Replace="Автоисцеление"/>
+<Translation Original="Ghostmode" Replace="Режим призрака"/>
+<Translation Original="Infinitive Stamina" Replace="Инфинитивная выносливость"/>
+<Translation Original="Never Wanted" Replace="Никогда не разыскивают"/>
+<Translation Original="End Pursuit" Replace="Конец преследования"/>
+<Translation Original="Everyone Ignore" Replace="Все игнорируют"/>
+<Translation Original="Infinitive Swim" Replace="Инфинитивное плавание"/>
+<Translation Original="No Noise" Replace="Отсутствие шума"/>
+<Translation Original="Super Jump" Replace="Супер прыжок"/>
+<Translation Original="Ultra Jump" Replace="Ультра прыжок"/>
+<Translation Original="Player Scale" Replace="Шкала игрока"/>
+<Translation Original="No Ragdoll" Replace="Нет рэгдолла"/>
+<Translation Original="Super Run" Replace="Супер бег"/>
+<Translation Original="Passive Run" Replace="Пассивный бег"/>
+<Translation Original="Player Opacity" Replace="Непрозрачность игрока"/>
+<Translation Original="Quick Skin" Replace="Быстрый скин"/>
+<Translation Original="Quick Loot" Replace="Быстрая добыча"/>
+<Translation Original="Fly Mode" Replace="Режим полета"/>
+<Translation Original="Collision" Replace="Столкновение"/>
+<Translation Original="Forcefield" Replace="Силовое поле"/>
+<Translation Original="Cores Never Drain" Replace="Ядра никогда не истощаются"/>
+<Translation Original="Cores Overpower" Replace="Превышение мощности ядер"/>
+<Translation Original="Boost Cores" Replace="Ускоряющие ядра"/>
+<Translation Original="Fill Player Cores" Replace="Заполнить ядра игроков"/>
+<Translation Original="Heal" Replace="Исцеление"/>
+<Translation Original="Clean Ped" Replace="Чистый пешеход"/>
+<Translation Original="Set Config Flag" Replace="Установить флаг конфигурации"/>
+<Translation Original="Clone Player" Replace="Клонировать игрока"/>
+<Translation Original="Drink a Beer" Replace="Выпить пива"/>
+<Translation Original="Drink a Whiskey" Replace="Выпить виски"/>
+<Translation Original="Quick Health Cure" Replace="Быстрое лечение здоровья"/>
+<Translation Original="Get Wanted" Replace="~COLOR_RED~Попасть в розыск"/>
+<Translation Original="~COLOR_RED~Instant Death" Replace="~COLOR_RED~Мгновенная смерть"/>
+<Translation Original="~COLOR_RED~Get Wanted" Replace="~COLOR_RED~Попасть в розыск"/>
+<Translation Original="~COLOR_RED~Suicide" Replace="~COLOR_RED~Самоубийство"/>
+<Translation Original="Disable Dead Eye" Replace="Отключить мертвый глаз"/>
+<Translation Original="Unlimited Dead Eye" Replace="Неограниченный мертвый глаз"/>
+<Translation Original="Dead Eye Level" Replace="Уровень мертвого глаза"/>
+<Translation Original="Disable Eagle Eye" Replace="Отключить орлиный глаз"/>
+<Translation Original="Unlimited Eagle Eye" Replace="Неограниченный орлиный глаз"/>
+<Translation Original="Eagle Eye Plus" Replace="Орлиный глаз плюс"/>
+<Translation Original="Eagle Eye Mode" Replace="Режим орлиного глаза"/>
+<Translation Original="Player Info" Replace="Информация об игроке"/>
+<Translation Original="Health" Replace="Здоровье"/>
+<Translation Original="Movement" Replace="Движение"/>
+<Translation Original="Wanted Level" Replace="Уровень розыска"/>
+<Translation Original="Primary Weapon" Replace="Основное оружие"/>
+<Translation Original="Secondary Weapon" Replace="Дополнительное оружие"/>
+<Translation Original="X Coord" Replace="X Координата"/>
+<Translation Original="Y Coord" Replace="Y Координата"/>
+<Translation Original="Z Coord" Replace="Z Координата"/>
+<Translation Original="Location" Replace="Место нахождения"/>
+<Translation Original="Bank" Replace="Банк"/>
+<Translation Original="Speed" Replace="Скорость"/>
+<Translation Original="Ammo" Replace="Боеприпасы"/>
+<Translation Original="Heading" Replace="Заголовок"/>
+<Translation Original="Bullets" Replace="Пули"/>
+<Translation Original="Flame" Replace="Пламя"/>
+<Translation Original="Explosion" Replace="Взрыв"/>
+<Translation Original="Steam" Replace="Пар"/>
+<Translation Original="Smoke" Replace="Дым"/>
+<Translation Original="Projectiles" Replace="Снаряды"/>
+<Translation Original="Reload List" Replace="Перезагрузить список"/>
+<Translation Original="Stop Playing" Replace="Остановить воспроизведение"/>
+<Translation Original="Stop Playing Immediately" Replace="Немедленно прекратить воспроизведение"/>
+<Translation Original="Use nearest" Replace="Использовать ближайший"/>
+<Translation Original="Model Changer" Replace="Изменение модели"/>
+<Translation Original="Apply Damage Packs" Replace="Применить пакеты повреждений"/>
+<Translation Original="Walk Styles" Replace="Стили ходьбы"/>
+<Translation Original="Facial Hair" Replace="Волосы на лице"/>
+<Translation Original="Wardrobe Cam" Replace="Гардеробная камера"/>
+<Translation Original="Outfit Variation" Replace="Варианты экипировки"/>
+<Translation Original="Drop Hat" Replace="Капюшон"/>
+<Translation Original="Remove Off-Hand Holster" Replace="Снять кобуру с руки"/>
+<Translation Original="Remove Satchel" Replace="Убрать сумку"/>
+<Translation Original="Never Lose Hat" Replace="Никогда не терять шляпу"/>
+<Translation Original="Components" Replace="Компоненты"/>
+<Translation Original="Disable Component" Replace="Отключить компонент"/>
+<Translation Original="Hats" Replace="Шляпы"/>
+<Translation Original="Masks" Replace="Маски"/>
+<Translation Original="Head" Replace="Голова"/>
+<Translation Original="Hair" Replace="Волосы"/>
+<Translation Original="Goatees" Replace="Эспаньолки"/>
+<Translation Original="Sideburns" Replace="Бакенбарды"/>
+<Translation Original="Mustache" Replace="Усы"/>
+<Translation Original="Teeth" Replace="Зубы"/>
+<Translation Original="Eyes" Replace="Глаза "/>
+<Translation Original="Neckties" Replace="Галстуки"/>
+<Translation Original="Neckwear" Replace="Шейный платок"/>
+<Translation Original="Torsos" Replace="Торсы"/>
+<Translation Original="Shirts" Replace="Рубашки"/>
+<Translation Original="Vests" Replace="Жилеты"/>
+<Translation Original="Coats" Replace="Пальто"/>
+<Translation Original="Cloaks" Replace="Плащи"/>
+<Translation Original="Suspenders" Replace="Подтяжки"/>
+<Translation Original="Satchels" Replace="Ранцы"/>
+<Translation Original="Belts" Replace="Ремни"/>
+<Translation Original="Gunbelts" Replace="Оружейные ремни"/>
+<Translation Original="Loadout" Replace="Выгрузка"/>
+<Translation Original="Holster" Replace="Кобура"/>
+<Translation Original="Off-Hand Holsters" Replace="Наручные кобуры"/>
+<Translation Original="Gloves" Replace="Перчатки"/>
+<Translation Original="Legs" Replace="Ноги"/>
+<Translation Original="Pants" Replace="Брюки"/>
+<Translation Original="Chaps" Replace="Чапсы"/>
+<Translation Original="Boots" Replace="Ботинки"/>
+<Translation Original="Spats" Replace="Спаты"/>
+<Translation Original="Spurs" Replace="Шпоры"/>
+<Translation Original="Accessories" Replace="Аксессуары"/>
+<Translation Original="Badges" Replace="Значки"/>
+<Translation Original="Talisman" Replace="Талисман"/>
+<Translation Original="Auto-Reset" Replace="Автосброс"/>
+<Translation Original="Enable Bird Controls" Replace="Включить управление птицами"/>
+<Translation Original="Enable Attack Controls" Replace="Включить управление атакой"/>
+<Translation Original="Enable Reload Controls" Replace="Включить управление перезагрузкой"/>
+<Translation Original="~m~Visit Barber and change style after changing" Replace="~m~Посетите парикмахера и измените стиль после изменения"/>
+<Translation Original="Chin Length" Replace="Длина подбородка"/>
+<Translation Original="Chops Length" Replace="Длина отбивных"/>
+<Translation Original="Stache Length" Replace="Длина усов"/>
+<Translation Original="Hair Length" Replace="Длина волос"/>
+<Translation Original="Goto Barber" Replace="Гото парикмахер"/>
+<Translation Original="Fire Ring" Replace="Огненное кольцо"/>
+<Translation Original="Fire Ring Burst" Replace="Взрыв огненного кольца"/>
+<Translation Original="Fire" Replace="Огонь"/>
+<Translation Original="Sparks" Replace="Искры"/>
+<Translation Original="Sparks Small" Replace="Искры малые"/>
+<Translation Original="Tesla Flow" Replace="Поток теслы"/>
+<Translation Original="Water Splash" Replace="Всплеск воды"/>
+<Translation Original="Player Signal" Replace="Сигнал игрока"/>
+<Translation Original="Net Race Target Destroy" Replace="Уничтожение чистой цели гонки"/>
+<Translation Original="Firework" Replace="Фейерверк"/>
+<Translation Original="Save current outfit" Replace="Сохранить текущую экипировку"/>
+<Translation Original="Remove all before load" Replace="Удалить все перед загрузкой"/>
+<Translation Original="Save" Replace="Сохранить"/>
+<Translation Original="Save Complete Model" Replace="Сохранить полную модель"/>
+<Translation Original="Load Outfit" Replace="Грузовое снаряжение"/>
+<Translation Original="No files found" Replace="Файлы не найдены"/>
+<Translation Original="Clear all" Replace="Очистить все"/>
+<Translation Original="Animpost FX" Replace="Animpost FX"/>
+<Translation Original="Timecycle Modifiers" Replace="Модификаторы временного цикла"/>
+<Translation Original="Strength" Replace="Сила"/>
+<Translation Original="Smoke a Cigar" Replace="Выкурить сигару"/>
+<Translation Original="Stop Action" Replace="Остановить действие"/>
+<Translation Original="Set voice to Arthur" Replace="Установите голос на Артура"/>
+<Translation Original="Set voice to John" Replace="Установите голос на Джона"/>
+<Translation Original="Set voice custom" Replace="Установите пользовательский голос"/>
+<Translation Original="Play Custom" Replace="Играть на заказ"/>
+<Translation Original="Toggles" Replace="Переключатели"/>
 
-	<!---ИГРОК--->
-	<Translation Original="PLAYER" Replace="ИГРОК"/>
-	<Translation Original="Godmode" Replace="Режим бога"/>
-	
-	<!---ДЕНЬГИ--->
-	<Translation Original="MONEY" Replace="ДЕНЬГИ"/>
-	<Translation Original="Add Cash" Replace="Добавить деньги"/>
-	<Translation Original="Remove Cash" Replace="Удалить деньги"/>
-	<Translation Original="Drop Cash" Replace="Выпадение наличных"/>
-	
-	<!---СТАТИСТИКА--->
-	<Translation Original="STATS" Replace="СТАТИСТИКА"/>
-	<Translation Original="Misc" Replace="Разное"/>
-	<Translation Original="Cash" Replace="Деньги"/>
-	<Translation Original="Loot" Replace="Добыча"/>
-	<Translation Original="Honor" Replace="Честь"/>
-	<Translation Original="Bounty" Replace="Награда"/>
-	<Translation Original="Unlocks" Replace="Разблокировщик"/>
-	<Translation Original="Collectibles" Replace="Коллекционные предметы"/>	
-	<Translation Original="Cores" Replace="Ядра"/>
-	<Translation Original="Reveal Map" Replace="Раскрыть карту"/>
-	
-        <!---РАЗНООБРАЗНОЕ--->
-	<Translation Original="MISCELLANEOUS" Replace="РАЗНООБРАЗНОЕ"/>
-        <Translation Original="Mp3 Player" Replace="MP3 Плеер"/>
-        <Translation Original="Game Music" Replace="Игровая музыка"/>
-        <Translation Original="Mobile Theater" Replace="Мобильный театр"/>
-        <Translation Original="Cutscene Player" Replace="Катсцена игрока"/>
-        <Translation Original="Friendlist" Replace="Список друзей"/>
-        <Translation Original="Minigames" Replace="Мини-игры"/>
-        <Translation Original="Overlay Settings" Replace="Настройки оверлея"/>
-        <Translation Original="Cam Zoom" Replace="Увеличение камеры"/>
-        <Translation Original="Top-Down Cam" Replace="Камера сверху вниз"/>
-        <Translation Original="No Clip" Replace="No Clip"/>
-        <Translation Original="Air Walk" Replace="Воздушная прогулка"/>
-        <Translation Original="Freecam" Replace="Свободная камера"/>
-        <Translation Original="Cap FPS" Replace="Ограничение FPS"/>
-        <Translation Original="Disable Idle Music" Replace="Отключить музыку при ожидании"/>
-        <Translation Original="Pause Game" Replace="Приостановить игру"/>
-        <Translation Original="Decrease Graphics" Replace="Сниженная графика"/>
-        <Translation Original="Disable New Austin Sniper" Replace="Отключить New Austin Sniper"/>
-        <Translation Original="Disable Guard Zones" Replace="Отключить охранные зоны"/>
-        <Translation Original="No Weapon Wheel Slo-Down" Replace="Нет замедления колеса оружия"/>
-        <Translation Original="Take a Photo" Replace="Сфотографировать"/>
-        <Translation Original="Fix Mission Markers" Replace="Фикс маркеров миссий"/>
-        <Translation Original="Send Console Message" Replace="Отправить консольное сообщение"/>
-        <Translation Original="About Rampage" Replace="О Rampage"/>
-        <Translation Original="Dev" Replace="Dev"/>
-        <Translation Original="Script Monitor" Replace="Скрипт монитора"/>
-        <Translation Original="Script Loader" Replace="Скрипт загрузки"/>
-        <Translation Original="Script Terminator" Replace="Скрипт терминатор"/>
+//Лошадь
+<Translation Original="HORSE ~E~[NOT ON HORSE]" Replace="ЛОШАДЬ ~E~[НЕ НА ЛОШАДИ]"/>
+<Translation Original="HORSE" Replace="ЛОШАДЬ"/>
+<Translation Original="Horse ~e~[Not on Horse]" Replace="Лошадь ~e~[Не на лошади]"/>
+<Translation Original="Teleport own horse to me" Replace="Телепортировать свою лошадь ко себе"/>
+<Translation Original="Auto Clean" Replace="Автоочистка"/>
+<Translation Original="Stats" Replace="Статистика"/>
+<Translation Original="Mobile Stable" Replace="Мобильный стабильный"/>
+<Translation Original="Load / Save" Replace="Загрузить / Сохранить"/>
+<Translation Original="Blip" Replace="Блип"/>
+<Translation Original="Invincible" Replace="Неуязвимый"/>
+<Translation Original="Invisible" Replace="Невидимый"/>
+<Translation Original="Stamina Never Drain" Replace="Выносливость не истощается"/>
+<Translation Original="Never Ragdoll" Replace="Никогда рэгдолл"/>
+<Translation Original="Horse Scale" Replace="Лошадиные весы"/>
+<Translation Original="Super Speed" Replace="Суперскорость"/>
+<Translation Original="Speed Modifier" Replace="Модификатор скорости"/>
+<Translation Original="Horse Fly Mode" Replace="Режим полета лошади"/>
+<Translation Original="Horse Always Calm" Replace="Лошадь всегда спокойна"/>
+<Translation Original="Flaming Hooves" Replace="Пылающие копыта"/>
+<Translation Original="Fill Horse Cores" Replace="Заполнить ядра лошадей"/>
+<Translation Original="Quick Boost" Replace="Быстрое ускорение"/>
+<Translation Original="Quick Stop" Replace="Быстрая остановка"/>
+<Translation Original="Clean" Replace="Очистить"/>
+<Translation Original="Always Clean" Replace="Всегда чисто"/>
+<Translation Original="Clone" Replace="Клонировать"/>
+<Translation Original="Rename" Replace="Переименовать"/>
+<Translation Original="Set as Saddle Horse" Replace="Установить в качестве верховой лошади"/>
+<Translation Original="~COLOR_RED~Kill" Replace="~COLOR_RED~Убить"/>
+<Translation Original="~COLOR_RED~Delete" Replace="~COLOR_RED~Удалить"/>
+<Translation Original="HORSE SPAWNER" Replace="ЛОШАДИНЫЙ СПАВНЕР"/>
+<Translation Original="Gender" Replace="Пол"/>
+<Translation Original="Male" Replace="Мужской"/>
+<Translation Original="Female" Replace="Женский"/>
+<Translation Original="Max Horse Cores" Replace="Максимальное количество лошадиных ядер"/>
+<Translation Original="Max Horse Bonding" Replace="Максимальное сближение с лошадью"/>
+<Translation Original="Custom" Replace="Пользовательский"/>
+<Translation Original="Health Core" Replace="Ядро здоровья"/>
+<Translation Original="Stamina Core" Replace="Ядро выносливости"/>
+<Translation Original="Handling Level" Replace="Уровень управляемости"/>
+<Translation Original="Speed Level" Replace="Уровень скорости"/>
+<Translation Original="Acceleration Level" Replace="Уровень ускорения"/>
+<Translation Original="Bonding Level" Replace="Уровень соединения"/>
+<Translation Original="Weight" Replace="Масса"/>
+<Translation Original="Teleport horse to me" Replace="Телепортируйте лошадь ко мне"/>
+<Translation Original="Teleport to horse" Replace="Телепортироваться к лошади"/>
+<Translation Original="Revive own horse" Replace="Оживить собственную лошадь"/>
+<Translation Original="Add Blip" Replace="Добавить блип"/>
+<Translation Original="Teleport to blip horse" Replace="Телепортироваться к лошади"/>
+<Translation Original="Teleport blip horse to you" Replace="Телепортировать к себе лошадь"/>
+<Translation Original="Random Components" Replace="Случайные компоненты"/>
+<Translation Original="Remove all Components" Replace="Удалить все компоненты"/>
+<Translation Original="Saddle" Replace="Седло"/>
+<Translation Original="Saddle-Clothes" Replace="Одежда для седла"/>
+<Translation Original="Horns" Replace="Рога"/>
+<Translation Original="Stirrups" Replace="Стремена"/>
+<Translation Original="Bags" Replace="Сумки"/>
+<Translation Original="Luggage" Replace="Багаж"/>
+<Translation Original="Mane" Replace="Грива"/>
+<Translation Original="Tail" Replace="Хвост"/>
+<Translation Original="Horse Info" Replace="Информация о лошади"/>
+<Translation Original="Max Stamina" Replace="Максимальная выносливость"/>
+<Translation Original="Handling" Replace="Обращение"/>
+<Translation Original="Top Speed" Replace="Максимальная скорость"/>
+<Translation Original="Acceleration" Replace="Ускорение"/>
 
-        <!---ЗАГРУЗКА--->
-        <Translation Original="LOAD / SAVE SETTINGS" Replace="ЗАГРУЗКА / СОХРАНЕНИЕ НАСТРОЕК"/>
-        <Translation Original="Save current settings" Replace="Сохранить текущие настройки"/>
-        <Translation Original="Load settings from file" Replace="Загрузка настроек из файла"/>
-        <Translation Original="Toggles" Replace="Переключатели"/>
-        <Translation Original="Sync Toggle Config" Replace="Конфиг переключения синхронизации"/>
+//Лошади
+<Translation Original="American Paint" Replace="American Paint"/>
+<Translation Original="American Standardbred" Replace="American Standardbred"/>
+<Translation Original="Andalusian" Replace="Andalusian"/>
+<Translation Original="Appaloosa" Replace="Appaloosa"/>
+<Translation Original="Arabian" Replace="Arabian"/>
+<Translation Original="Ardennes" Replace="Ardennes"/>
+<Translation Original="Belgian" Replace="Belgian"/>
+<Translation Original="Thoroughbred" Replace="Thoroughbred"/>
+<Translation Original="Turkoman" Replace="Turkoman"/>
+<Translation Original="Breton" Replace="Breton"/>
+<Translation Original="Criollo" Replace="Criollo"/>
+<Translation Original="Dutch Warmblood" Replace="Dutch Warmblood"/>
+<Translation Original="Gypsy Cob" Replace="Gypsy Cob"/>
+<Translation Original="Hungarian Halfbred" Replace="Hungarian Halfbred"/>
+<Translation Original="Kentucky Saddler" Replace="Kentucky Saddler"/>
+<Translation Original="Klardruber" Replace="Klardruber"/>
+<Translation Original="Missouri Fox Trotter" Replace="Missouri Fox Trotter"/>
+<Translation Original="Morgan" Replace="Morgan"/>
+<Translation Original="Mustang" Replace="Mustang"/>
+<Translation Original="Nokota" Replace="Nokota"/>
+<Translation Original="Norfolk Roadster" Replace="Norfolk Roadster"/>
+<Translation Original="Shire" Replace="Shire"/>
+<Translation Original="Suffolk Punch" Replace="Suffolk Punch"/>
+<Translation Original="Tennessee Walker" Replace="Tennessee Walker"/>
+<Translation Original="Scrawny Nag" Replace="Scrawny Nag"/>
+<Translation Original="Mule Painted" Replace="Mule Painted"/>
+<Translation Original="Murfree Blanket" Replace="Murfree Blanket"/>
+<Translation Original="Murfree Blue Roan" Replace="Murfree Blue Roan"/>
+<Translation Original="Murfree Black Rabicano" Replace="Murfree Black Rabicano"/>
+<Translation Original="Horse Winter" Replace="Horse Winter"/>
+
+//Цвет лошади
+<Translation Original="Grey Overo" Replace="Серый Оверо"/>
+<Translation Original="Overo" Replace="Оверо"/>
+<Translation Original="Splashed White" Replace="Брызги белого цвета"/>
+<Translation Original="Tobiano" Replace="Тобиано"/>
+<Translation Original="Black" Replace="Черный"/>
+<Translation Original="Buckskin" Replace="Оленья кожа"/>
+<Translation Original="Light-Buckskin" Replace="Светло-баклажанная кожа"/>
+<Translation Original="Palomino Dapple" Replace="Паломино Даппл"/>
+<Translation Original="Silver Tail Buckskin" Replace="Серебряный хвост из оленьей кожи"/>
+<Translation Original="Dark Bay" Replace="Темная бухта"/>
+<Translation Original="Perlino" Replace="Перлино"/>
+<Translation Original="Rose Gray" Replace="Розовый серый"/>
+<Translation Original="Black Snowflake" Replace="Черная снежинка"/>
+<Translation Original="Blanket" Replace="Одеяло"/>
+<Translation Original="Brown Leopard" Replace="Коричневый леопард"/>
+<Translation Original="Few-Spotted PC" Replace="Few-Spotted PC"/>
+<Translation Original="Leopard" Replace="Леопард"/>
+<Translation Original="Leopard Blanket" Replace="Леопардовое одеяло"/>
+<Translation Original="Grey" Replace="Серый"/>
+<Translation Original="Red Chestnut" Replace="Красный каштан"/>
+<Translation Original="Red Chestnut PC" Replace="Красный каштан ПК"/>
+<Translation Original="Rose Grey Bay" Replace="Розово-серый залив"/>
+<Translation Original="Warped Brindle" Replace="Искривленное веретено"/>
+<Translation Original="White" Replace="Белая"/>
+<Translation Original="Bay Roan" Replace="Гнедо-чалая"/>
+<Translation Original="Iron Grey Roan" Replace="Iron Grey Roan"/>
+<Translation Original="Strawberry Roan" Replace="Strawberry Roan"/>
+<Translation Original="Blonde Chestnut" Replace="Blonde Chestnut"/>
+<Translation Original="Mealy Chestnut" Replace="Mealy Chestnut"/>
+<Translation Original="Grullo Dun" Replace="Grullo Dun"/>
+<Translation Original="Mealy Dapple Bay" Replace="Mealy Dapple Bay"/>
+<Translation Original="Red Roan" Replace="Красный роан"/>
+<Translation Original="Seal Brown" Replace="Тюлень коричневый"/>
+<Translation Original="Sorrel" Replace="Щавель"/>
+<Translation Original="Steel Grey" Replace="Стальной серый"/>
+<Translation Original="Chocolate Roan" Replace="Шоколадный роан"/>
+<Translation Original="Seal Brown" Replace="Шоколад с оттенками кофе и каштана"/>
+<Translation Original="Sooty Buckskin" Replace="Закопченная оленья кожа"/>
+<Translation Original="Dapple Dark Gray" Replace="Dapple Dark Gray"/>
+<Translation Original="Flaxen Chestnut" Replace="Flaxen Chestnut"/>
+<Translation Original="Liver Chestnut" Replace="Liver Chestnut"/>
+<Translation Original="Piebald Tobiano" Replace="Piebald Tobiano"/>
+<Translation Original="Buttermilk Buckskin PC" Replace="Buttermilk Buckskin PC"/>
+<Translation Original="Chestnut Pinto" Replace="Chestnut Pinto"/>
+<Translation Original="Silver Bay" Replace="Silver Bay"/>
+<Translation Original="Amber Champagne" Replace="Amber Champagne"/>
+<Translation Original="Black Tovero" Replace="Black Tovero"/>
+<Translation Original="Blue Roan" Replace="Blue Roan"/>
+<Translation Original="Buckskin Brindle" Replace="Buckskin Brindle"/>
+<Translation Original="Dapple Grey" Replace="Dapple Grey"/>
+<Translation Original="Sable Champagne" Replace="Sable Champagne"/>
+<Translation Original="Silver Dapple Pinto" Replace="Silver Dapple Pinto"/>
+<Translation Original="Bay" Replace="Залив"/>
+<Translation Original="Liver Chestnut PC" Replace="Liver Chestnut PC"/>
+<Translation Original="Palomino" Replace="Паломино"/>
+<Translation Original="Black Overo" Replace="Черный оверо"/>
+<Translation Original="Chestnut Tovero" Replace="Chestnut Tovero"/>
+<Translation Original="Golden Dun" Replace="Golden Dun"/>
+<Translation Original="Red Dun Overo" Replace="Red Dun Overo"/>
+<Translation Original="Tigerstriped Bay" Replace="Tigerstriped Bay"/>
+<Translation Original="Wild Bay" Replace="Wild Bay"/>
+<Translation Original="Blue Roan" Replace="Blue Roan"/>
+<Translation Original="Reverse Dapple Roan" Replace="Reverse Dapple Roan"/>
+<Translation Original="White Roan" Replace="White Roan"/>
+<Translation Original="Light Grey" Replace="Light Grey"/>
+<Translation Original="Raven Black" Replace="Raven Black"/>
+<Translation Original="Black Rabicano" Replace="Black Rabicano"/>
+<Translation Original="Chestnut" Replace="Каштан"/>
+<Translation Original="Dapple Bay" Replace="Dapple Bay"/>
+<Translation Original="Flaxen Roan" Replace="Flaxen Roan"/>
+<Translation Original="Gold Palomino PC" Replace="Золотой паломино ПК"/>
+<Translation Original="Mahogany Bay" Replace="Mahogany Bay"/>
+<Translation Original="Black Chestnut" Replace="Black Chestnut"/>
+<Translation Original="Blood Bay" Replace="Кровавый залив"/>
+<Translation Original="Brindle" Replace="Тигровый"/>
+<Translation Original="Dapple Gray" Replace="Пятнистый серый"/>
+<Translation Original="Reverse Dapple Black" Replace="Обратный пятнистый черный"/>
+<Translation Original="Gold" Replace="Золото"/>
+<Translation Original="Silver" Replace="Серебро"/>
+
+//Оружие
+<Translation Original="Manage Weapons" Replace="Управление оружием"/>
+<Translation Original="Ammo modifiers" Replace="Модификаторы боеприпасов"/>
+<Translation Original="Aimbot" Replace="Аимбот"/>
+<Translation Original="Visuals" Replace="Визуальные эффекты"/>
+<Translation Original="Modifiers" Replace="Модификаторы"/>
+<Translation Original="Dual Wield" Replace="Два оружия"/>
+<Translation Original="Always Killcam" Replace="Всегда киллкам"/>
+<Translation Original="Weapon Mods" Replace="Модификации оружия"/>
+<Translation Original="Slow Motion on Aiming" Replace="Замедленное движение при прицеливании"/>
+<Translation Original="First Person on Aim" Replace="От первого лица на прицеле"/>
+<Translation Original="Rapid Fire" Replace="Быстрый огонь"/>
+<Translation Original="Rapid Gun" Replace="Скорострельная пушка"/>
+<Translation Original="Auto Cock" Replace="Авто Cock"/>
+<Translation Original="Tenfold Bullets" Replace="Десятикратные пули"/>
+<Translation Original="Explosive Ammo" Replace="Разрывные боеприпасы"/>
+<Translation Original="Fire Ammo" Replace="Огнестрельные боеприпасы"/>
+<Translation Original="Infinite Ammo" Replace="Бесконечные боеприпасы"/>
+<Translation Original="No Reload" Replace="Без перезарядки"/>
+<Translation Original="One Hit Kill" Replace="Убийство одним ударом"/>
+<Translation Original="Super Punch" Replace="Супер удар"/>
+<Translation Original="Teleport Gun" Replace="Телепортационная пушка"/>
+<Translation Original="Lightning Strike Gun" Replace="Пистолет для молниеносного удара"/>
+<Translation Original="Thunder Hawk" Replace="Громовой ястреб"/>
+<Translation Original="Gravity Gun" Replace="Гравитационная пушка"/>
+<Translation Original="Magnet Gun" Replace="Магнитное оружие"/>
+<Translation Original="Pickup Gun" Replace="Пистолет пикап"/>
+<Translation Original="Portal Gun" Replace="Портальная пушка"/>
+<Translation Original="Perfect Pelt Gun" Replace="Идеальное оружие для шкурок"/>
+<Translation Original="Force Gun" Replace="Силовое оружие"/>
+<Translation Original="Freeze Gun" Replace="Замораживающие оружие"/>
+<Translation Original="Drive it Gun" Replace="Управляй этим оружием"/>
+<Translation Original="Weapon Laser" Replace="Лазерное оружие"/>
+<Translation Original="Debug Gun" Replace="Отладочное оружие"/>
+<Translation Original="Delete Gun" Replace="Удалить оружие"/>
+<Translation Original="Revive Gun" Replace="Оживляющий пистолет"/>
+<Translation Original="Disco Lantern" Replace="Дискотечный фонарь"/>
+<Translation Original="Weapon Locker" Replace="Оружейный шкафчик"/>
+<Translation Original="Give all Weapons" Replace="Получить все оружие"/>
+<Translation Original="Remove current Weapon" Replace="Удалить текущее оружие"/>
+<Translation Original="Drop current Weapon" Replace="Выбросить текущее оружие"/>
+<Translation Original="Remove all Weapons" Replace="Удалить все оружие"/>
+<Translation Original="Upgrade Weapon" Replace="Модернизация оружия"/>
+<Translation Original="Add Component" Replace="Добавить компонент"/>
+<Translation Original="Fill Ammo" Replace="Заполнить боеприпасы"/>
+<Translation Original="Remove All Ammo" Replace="Удалить все боеприпасы"/>
+<Translation Original="Apply Dirt" Replace="Нанести грязь"/>
+<Translation Original="Auto-Clean Weapon" Replace="Авточистка оружия"/>
+<Translation Original="Auto-Clean" Replace="Автоочистка"/>
+<Translation Original="Melee" Replace="Рукопашный"/>
+<Translation Original="Revolvers" Replace="Револьверы"/>
+<Translation Original="Pistols" Replace="Пистолеты"/>
+<Translation Original="Repeaters" Replace="Ретрансляторы"/>
+<Translation Original="Rifles" Replace="Винтовки"/>
+<Translation Original="Shotguns" Replace="Ружья"/>
+<Translation Original="Snipers" Replace="Снайперы"/>
+<Translation Original="Throwing" Replace="Метание"/>
+<Translation Original="Explosion Type" Replace="Тип взрыва"/>
+<Translation Original="Bullet Type" Replace="Тип пули"/>
+<Translation Original="PTFX Gun" Replace="Пистолет PTFX"/>
+<Translation Original="Size Gun" Replace="Размер пистолета"/>
+<Translation Original="Coords Gun" Replace="Коорд пистолет"/>
+<Translation Original="Remote Cannonball" Replace="Удаленное пушечное ядро"/>
+<Translation Original="Ped Gun" Replace="Пешеходный пистолет"/>
+<Translation Original="Vehicle Gun" Replace="Транспортная пушка"/>
+<Translation Original="Invisible Weapon" Replace="Невидимое оружие"/>
+<Translation Original="Custom Crosshair" Replace="Пользовательское перекрестие"/>
+<Translation Original="Crosshair Color" Replace="Цвет перекрестия"/>
+<Translation Original="Clear Dead Eye" Replace="Очистить мертвый глаз"/>
+<Translation Original="Disable Radial Reticle" Replace="Отключить радиальную сетку"/>
+<Translation Original="Disable Hitmarker" Replace="Отключить маркер попадания"/>
+<Translation Original="Disable Hit Feedback" Replace="Отключить обратную связь по ударам"/>
+<Translation Original="Enable" Replace="Включить"/>
+<Translation Original="Scale" Replace="Шкала"/>
+<Translation Original="Damage Modifier" Replace="Модификатор урона"/>
+<Translation Original="Melee Modifier" Replace="Модификатор ближнего боя"/>
+<Translation Original="Defense Modifier" Replace="Модификатор защиты"/>
+<Translation Original="Accuracy" Replace="Точность"/>
+<Translation Original="Reset" Replace="Сброс"/>
+<Translation Original="Enlarge" Replace="Увеличить"/>
+<Translation Original="Shrink" Replace="Сокращать"/>
+<Translation Original="Normalizw" Replace="Нормализовать"/>
+<Translation Original="Targeting Mode" Replace="Режим наведения на цель"/>
+<Translation Original="Prioritize" Replace="Расставлять приоритеты"/>
+<Translation Original="Auto Shoot" Replace="Авто съёмка"/>
+<Translation Original="Auto First Person on Aiming." Replace="Авто от первого лица на прицеливании."/>
+<Translation Original="Switch to first person before enabling!" Replace="Перед включением переключитесь на вид от первого лица!"/>
+<Translation Original="Use Homing Tomahawk." Replace="Используйте самонаводящийся томагавк."/>
+<Translation Original="Set two teleport portals." Replace="Установить два телепорта."/>
+<Translation Original="Press [Shift] to switch portal creation." Replace="Нажмите [Shift], чтобы переключиться на создание портала."/>
+<Translation Original="Freeze aimed Entities." Replace="Заморозить направленные сущности."/>
+<Translation Original="Press [Shift] while aiming to switch modes." Replace="Нажмите [Shift] во время прицеливания для переключения режимов."/>
+<Translation Original="Disco Lightning. Does not work with electric lantern." Replace="Дискотечная молния. Не работает с электрическим фонарем."/>
+<Translation Original="Lockon Range" Replace="Lockon Range"/>
+<Translation Original="Alpha" Replace="Альфа"/>
+
+//Транспортное средство
+<Translation Original="Train Creator" Replace="Создать поезд"/>
+<Translation Original="Vehicle AI" Replace="ИИ Транспорта"/>
+<Translation Original="Chauffeur" Replace="Шофер"/>
+<Translation Original="Paint Options" Replace="Варианты окраски"/>
+<Translation Original="Propsets" Replace="Реквизиты"/>
+<Translation Original="Customization" Replace="Персонализация"/>
+<Translation Original="Invincible Vehicle" Replace="Неуязвимый транспорт"/>
+<Translation Original="Invisible Vehicle" Replace="Невидимый транспорт"/>
+<Translation Original="Ghost Vehicle" Replace="Призрачный транспорт"/>
+<Translation Original="Vehicle Opacity" Replace="Непрозрачность транспорта"/>
+<Translation Original="Vehicle Fly Mode" Replace="Режим полета транспорта"/>
+<Translation Original="Speed Boost" Replace="Повышение скорости"/>
+<Translation Original="Train Boost" Replace="Ускорение поезда"/>
+<Translation Original="Stick to Ground" Replace="Прилипание к земле"/>
+<Translation Original="Repair" Replace="Ремонт"/>
+<Translation Original="Flip" Replace="Перевернуть"/>
+<Translation Original="Detach Wheels" Replace="Отсоединить колеса"/>
+<Translation Original="Stop" Replace="Остановить"/>
+<Translation Original="~COLOR_RED~Delete Vehicle" Replace="~COLOR_RED~Удалить транспорт"/>
+<Translation Original="Configuration" Replace="Конфигурация"/>
+<Translation Original="Direction" Replace="Направление"/>
+<Translation Original="AI Controlled" Replace="Управляемый ИИ"/>
+<Translation Original="Spawn" Replace="Спаун"/>
+<Translation Original="Delete" Replace="Удалить"/>
+<Translation Original="Teleport to blip vehicle" Replace="Телепортируйтесь к транспортному средству"/>
+<Translation Original="Teleport blip vehicle to you" Replace="Телепортируйте к себе транспортное средство"/>
+<Translation Original="Drive to Waypoint" Replace="Поездка к путевой точке"/>
+<Translation Original="Drive around" Replace="Водить вокруг"/>
+<Translation Original="Spawn Chauffeur" Replace="Спавн шофер"/>
+<Translation Original="Spawn (Custom)" Replace="Спаун (Пользовательский)"/>
+<Translation Original="Tint" Replace="Оттенок"/>
+<Translation Original="Livery" Replace="Ливрея"/>
+<Translation Original="Remove all" Replace="Убрать все"/>
+
+//Телепорт
+<Translation Original="Teleport to Waypoint" Replace="Телепортироваться к путевой точке"/>
+<Translation Original="Auto Teleport to Waypoint" Replace="Авто телепорт к путевой точке"/>
+<Translation Original="Remove Waypoint" Replace="Удалить путевую точку"/>
+<Translation Original="Teleport Animation" Replace="Анимация телепортации"/>
+<Translation Original="Custom Locations" Replace="Пользовательские местоположения"/>
+<Translation Original="Save current location" Replace="Сохранить текущее местоположение"/>
+<Translation Original="Custom coords" Replace="Пользовательские координаты"/>
+<Translation Original="Load custom location" Replace="Загрузить пользовательское местоположение"/>
+<Translation Original="Locations" Replace="Местоположение"/>
+<Translation Original="Camps and Safehouses" Replace="Camps and Safehouses"/>
+<Translation Original="Shops and Co." Replace="Shops and Co."/>
+<Translation Original="Mid-Eastern Locations" Replace="Mid-Eastern Locations"/>
+<Translation Original="Saint Denis Locations" Replace="Saint Denis Locations"/>
+<Translation Original="North East Locations" Replace="North East Locations"/>
+<Translation Original="Northern Locations" Replace="Northern Locations"/>
+<Translation Original="North West Locations" Replace="North West Locations"/>
+<Translation Original="South West Locations" Replace="South West Locations"/>
+<Translation Original="Off-land Locations" Replace="Off-land Locations"/>
+<Translation Original="Unfinished Locations" Replace="Unfinished Locations"/>
+<Translation Original="Special Locations" Replace="Специальные места"/>
+<Translation Original="Directional" Replace="Направленный"/>
+<Translation Original="Forward" Replace="Forward"/>
+<Translation Original="Backward" Replace="Backward"/>
+<Translation Original="Vehicle / Horse" Replace="Транспорт / Лошадь"/>
+<Translation Original="Last Vehicle" Replace="Последний транспорт"/>
+<Translation Original="Last Horse" Replace="Последняя лошадь"/>
+<Translation Original="Nearest Vehicle" Replace="Ближайший транспорт"/>
+<Translation Original="Nearest Train Track" Replace="Ближайший железнодорожный путь"/>
+<Translation Original="Common Locations" Replace="Распространенные локации"/>
+<Translation Original="Shops" Replace="Магазины"/>
+<Translation Original="Gunsmiths" Replace="Оружейники"/>
+<Translation Original="Doctors" Replace="Врачи"/>
+<Translation Original="Theaters" Replace="Театры"/>
+<Translation Original="Barbers" Replace="Парикмахеры"/>
+<Translation Original="Photo studios" Replace="Фотостудии"/>
+<Translation Original="Hotels" Replace="Отели"/>
+<Translation Original="Fences" Replace="Заборы"/>
+<Translation Original="Post stations" Replace="Почтовые станции"/>
+<Translation Original="Tailors" Replace="Портные"/>
+<Translation Original="Butchers" Replace="Мясники"/>
+<Translation Original="Stable" Replace="Стабильный"/>
+<Translation Original="Saloons" Replace="Салоны"/>
+<Translation Original="Trappers" Replace="Трапперы"/>
+<Translation Original="Show on Map" Replace="Показать на карте"/>
+<Translation Original="Off" Replace="Выкл"/>
+
+//Местонахождение
+<Translation Original="Annesburg" Replace="Annesburg"/>
+<Translation Original="Armadillo" Replace="Armadillo"/>
+<Translation Original="Beechers" Replace="Beechers"/>
+<Translation Original="Benedict Point" Replace="Benedict Point"/>
+<Translation Original="Blackwater" Replace="Blackwater"/>
+<Translation Original="Braithwaite" Replace="Braithwaite"/>
+<Translation Original="Butchercreek" Replace="Butchercreek"/>
+<Translation Original="Caliga Hall" Replace="Caliga Hall"/>
+<Translation Original="Colter" Replace="Colter"/>
+<Translation Original="Cornwall" Replace="Cornwall"/>
+<Translation Original="Emerald Ranch" Replace="Emerald Ranch"/>
+<Translation Original="Lagras" Replace="Lagras"/>
+<Translation Original="Macfarlanes Ranch" Replace="Macfarlanes Ranch"/>
+<Translation Original="Manzanita Post" Replace="Manzanita Post"/>
+<Translation Original="Mexico" Replace="Мексика"/>
+<Translation Original="Pronghorn" Replace="Pronghorn"/>
+<Translation Original="Rhodes" Replace="Rhodes"/>
+<Translation Original="Saint Denis" Replace="Saint Denis"/>
+<Translation Original="Sisika Island" Replace="Sisika Island"/>
+<Translation Original="South Guarma" Replace="South Guarma"/>
+<Translation Original="South Map" Replace="South Map"/>
+<Translation Original="Strawberry" Replace="Strawberry"/>
+<Translation Original="Tumbleweed" Replace="Tumbleweed"/>
+<Translation Original="Valentine" Replace="Valentine"/>
+<Translation Original="Vanhorn" Replace="Vanhorn"/>
+<Translation Original="Wapiti" Replace="Wapiti"/>
+<Translation Original="Camps" Replace="Лагеря"/>
+<Translation Original="Horseshoe Overlook" Replace="Horseshoe Overlook"/>
+<Translation Original="Clemens Point" Replace="Clemens Point"/>
+<Translation Original="Shady Belle" Replace="Shady Belle"/>
+<Translation Original="Lakay" Replace="Lakay"/>
+<Translation Original="Beaver Hollow" Replace="Beaver Hollow"/>
+<Translation Original="Safehouses" Replace="Safehouses"/>
+<Translation Original="Pronghorn Ranch" Replace="Pronghorn Ranch"/>
+<Translation Original="Beecher's Hope" Replace="Beecher's Hope"/>
+<Translation Original="Braithwaite Manor" Replace="Braithwaite Manor"/>
+<Translation Original="Emerald Ranch Fence" Replace="Emerald Ranch Fence"/>
+<Translation Original="Rhodes Sheriff Station" Replace="Rhodes Sheriff Station"/>
+<Translation Original="Rhodes" Replace="Rhodes"/>
+<Translation Original="UFO Cult House" Replace="UFO Cult House"/>
+<Translation Original="Cornwall Freight" Replace="Cornwall Freight"/>
+<Translation Original="Doyle's Tavern" Replace="Doyle's Tavern"/>
+<Translation Original="Dr. Joseph R Barnes MD (Doctor)" Replace="Dr. Joseph R Barnes MD (Doctor)"/>
+<Translation Original="Fontana Theatre" Replace="Fontana Theatre"/>
+<Translation Original="Holdern Barber" Replace="Holdern Barber"/>
+<Translation Original="Horner & Co General Store" Replace="Horner & Co General Store"/>
+<Translation Original="Kuo Chao and Co (Guns)" Replace="Kuo Chao and Co (Guns)"/>
+<Translation Original="Marcel Beliveau (Photography)" Replace="Marcel Beliveau (Photography)"/>
+<Translation Original="Milliners (Clothes)" Replace="Milliners (Clothes)"/>
+<Translation Original="Park Gazebo (Dominos)" Replace="Park Gazebo (Dominos)"/>
+<Translation Original="Saint Denis Entrance" Replace="Saint Denis Entrance"/>
+<Translation Original="Saint Denis Fence" Replace="Saint Denis Fence"/>
+<Translation Original="Saint Denis Paperboy" Replace="Saint Denis Paperboy"/>
+<Translation Original="Saint Denis Police Dept. HQ" Replace="Saint Denis Police Dept. HQ"/>
+<Translation Original="Saint Denis Post Office" Replace="Saint Denis Post Office"/>
+<Translation Original="Saint Denis Trapper" Replace="Saint Denis Trapper"/>
+<Translation Original="Schiffer Brewery" Replace="Schiffer Brewery"/>
+<Translation Original="Sisika Penitentiary" Replace="Sisika Penitentiary"/>
+<Translation Original="Theatre Raleur" Replace="Theatre Raleur"/>
+<Translation Original="Ambarino Sign" Replace="Ambarino Sign"/>
+<Translation Original="Annesburg Mines" Replace="Annesburg Mines"/>
+<Translation Original="Crashed Boat" Replace="Crashed Boat"/>
+<Translation Original="Doverhill (Tesla Coil)" Replace="Doverhill (Tesla Coil)"/>
+<Translation Original="Van Horn Lighthouse" Replace="Van Horn Lighthouse"/>
+<Translation Original="Van Horn" Replace="Van Horn"/>
+<Translation Original="Veteran's Homestead" Replace="Veteran's Homestead"/>
+<Translation Original="Willard's Rest (and Waterfalls)" Replace="Willard's Rest (and Waterfalls)"/>
+<Translation Original="Barrow Lagoon" Replace="Barrow Lagoon"/>
+<Translation Original="Frozen Couple" Replace="Frozen Couple"/>
+<Translation Original="Grizzlies Camp (Tutorial Area)" Replace="Grizzlies Camp (Tutorial Area)"/>
+<Translation Original="Grizzlies Train Station" Replace="Grizzlies Train Station"/>
+<Translation Original="Mount Hagen" Replace="Mount Hagen"/>
+<Translation Original="Fort Wallace" Replace="Fort Wallace"/>
+<Translation Original="Monto's Rest (Building Camp)" Replace="Monto's Rest (Building Camp)"/>
+<Translation Original="Strawberry Sheriff Station" Replace="Strawberry Sheriff Station"/>
+<Translation Original="Valentine Sheriff Station" Replace="Valentine Sheriff Station"/>
+<Translation Original="Fort Mercer" Replace="Fort Mercer"/>
+<Translation Original="Gaptooth Breach" Replace="Gaptooth Breach"/>
+<Translation Original="Macfarlane's Ranch" Replace="Macfarlane's Ranch"/>
+<Translation Original="Mercer Station" Replace="Mercer Station"/>
+<Translation Original="Native Attack Site" Replace="Native Attack Site"/>
+<Translation Original="Rathskeller Fork" Replace="Rathskeller Fork"/>
+<Translation Original="Ridgewood Farm" Replace="Ridgewood Farm"/>
+<Translation Original="Roots Chapel" Replace="Roots Chapel"/>
+<Translation Original="Swadlass Point" Replace="Swadlass Point"/>
+<Translation Original="Tanner's Reach" Replace="Tanner's Reach"/>
+<Translation Original="Upper Montana River" Replace="Upper Montana River"/>
+<Translation Original="Guarma Beach (Shipwreck Beach)" Replace="Guarma Beach (Shipwreck Beach)"/>
+<Translation Original="Guarma Fort" Replace="Guarma Fort"/>
+<Translation Original="Beach" Replace="Пляж"/>
+<Translation Original="Edge of the Universe" Replace="Edge of the Universe"/>
+<Translation Original="Floating Forest" Replace="Floating Forest"/>
+<Translation Original="Gaptooth Breach Mineshaft" Replace="Gaptooth Breach Mineshaft"/>
+<Translation Original="Greenery" Replace="Зелень"/>
+<Translation Original="Large rockbed" Replace="Large rockbed"/>
+<Translation Original="Sand Mountain" Replace="Sand Mountain"/>
+<Translation Original="Underwater Trees" Replace="Underwater Trees"/>
+<Translation Original="Devil's Cave" Replace="Devil's Cave"/>
+<Translation Original="Dinosaur Bone Cave" Replace="Dinosaur Bone Cave"/>
+<Translation Original="Golden Waterfall Cave" Replace="Golden Waterfall Cave"/>
+<Translation Original="Golden Revolver Cave" Replace="Golden Revolver Cave"/>
+<Translation Original="Hidden Mann Cave" Replace="Hidden Mann Cave"/>
+<Translation Original="Cave With Statues" Replace="Cave With Statues"/>
+<Translation Original="Big Foot Skeleton" Replace="Big Foot Skeleton"/>
+<Translation Original="Crashed Air Vehicle" Replace="Crashed Air Vehicle"/>
+<Translation Original="Witches Cauldron" Replace="Witches Cauldron"/>
+<Translation Original="Watsons Cabin" Replace="Watsons Cabin"/>
+<Translation Original="Torture House" Replace="Torture House"/>
+<Translation Original="Sacrifice Altar" Replace="Sacrifice Altar"/>
+<Translation Original="Ritual Place" Replace="Ritual Place"/>
+<Translation Original="Meteor House" Replace="Meteor House"/>
+<Translation Original="Hidden Hill House" Replace="Hidden Hill House"/>
+<Translation Original="Frozen Mann" Replace="Frozen Mann"/>
+
+//Спаунер
+<Translation Original="VEHICLE SPAWNER" Replace="СПАУН ТРАНСПОРТНОГО СРЕДСТВА"/>
+<Translation Original="Vehicles" Replace="Транспорт"/>
+<Translation Original="Peds" Replace="Пешеходы"/>
+<Translation Original="Objects" Replace="Объекты"/>
+<Translation Original="Plants" Replace="Растения"/>
+<Translation Original="Spawned Entities" Replace="Порожденные сущности"/>
+<Translation Original="Spawner Settings" Replace="Настройки спауна"/>
+<Translation Original="Custom Input" Replace="Пользовательский ввод"/>
+<Translation Original="Train Spawner" Replace="Спаунер поезда"/>
+<Translation Original="Wagon Spawner" Replace="Спаунер вагона"/>
+<Translation Original="Boat Spawner" Replace="Спаунер лодки"/>
+<Translation Original="Cannon Spawner" Replace="Пушечный спаунер"/>
+<Translation Original="Extra" Replace="Доп."/>
+<Translation Original="Hot Air Balloon" Replace="Воздушный шар"/>
+<Translation Original="Spawn in vehicle" Replace="Появление в транспорте"/>
+<Translation Original="Delete old vehicle" Replace="Удалить старый транспорт"/>
+<Translation Original="Ped Database" Replace="База данных пешеходов"/>
+<Translation Original="Humans" Replace="Люди"/>
+<Translation Original="Horses" Replace="Лошади"/>
+<Translation Original="Animals" Replace="Животные"/>
+<Translation Original="Search Peds" Replace="Поиск пешеходов"/>
+<Translation Original="Spawn on Horse" Replace="Спаун на лошади"/>
+<Translation Original="Spawn Dead" Replace="Мертвый спаун"/>
+<Translation Original="Spawn Sedated" Replace="Спаун усыплен"/>
+<Translation Original="Spawn as Bodyguard" Replace="Спавн как телохранитель"/>
+<Translation Original="Spawn in Posse" Replace="Спаун в отряде"/>
+<Translation Original="Spawn Frozen" Replace="Спаун заморожен"/>
+<Translation Original="Spawn Interactable" Replace="Спаун взаимодействующий"/>
+<Translation Original="Bypass Relationship" Replace="Отношения в обход"/>
+<Translation Original="Values" Replace="Значения"/>
+<Translation Original="Ambient Female" Replace="Амбиент женский"/>
+<Translation Original="Ambient Female Ordinary" Replace="Амбиент женский обыкновенный"/>
+<Translation Original="Ambient Male" Replace="Амбиент мужской"/>
+<Translation Original="Ambient Male Ordinary" Replace="Амбиент мужской обыкновенный"/>
+<Translation Original="Ambient Male Suppressed" Replace="Окружающий мужчина подавлен"/>
+<Translation Original="Cutscene" Replace="Катсцена"/>
+<Translation Original="Mupliplayer Cutscene" Replace="Многопользовательская катсцена"/>
+<Translation Original="Gang" Replace="Банда"/>
+<Translation Original="Story Finale" Replace="Финал истории"/>
+<Translation Original="Multiplayer: Blood Money" Replace="Мультиплеер: Кровавые деньги"/>
+<Translation Original="Multiplayer: Bounty Hunters" Replace="Мультиплеер: Охотники за головами"/>
+<Translation Original="Multiplayer: Naturalist" Replace="Мультиплеер: Натуралист"/>
+<Translation Original="Multiplayer" Replace="Мультиплеер"/>
+<Translation Original="Story" Replace="История"/>
+<Translation Original="Random Event" Replace="Случайное событие"/>
+<Translation Original="Scenario" Replace="Сценарий"/>
+<Translation Original="Story Scenario Female" Replace="Сценарий истории Женщина"/>
+<Translation Original="Story Scenario Male" Replace="Сюжет сценарий мужчина"/>
+<Translation Original="Posse" Replace="Отряд"/>
+<Translation Original="Clear Database" Replace="Очистить базу данных"/>
+<Translation Original="Delete all" Replace="Удалить все"/>
+<Translation Original="Formation" Replace="Формирование"/>
+<Translation Original="Posse Commands" Replace="Команды отряда"/>
+<Translation Original="Dismiss Posse" Replace="Уволить отряд"/>
+<Translation Original="1 Posse Attack aimed target" Replace="~m~1 Отряд атакует прицельную цель"/>
+<Translation Original="2 Closest Member Attack aimed target" Replace="~m~2 Ближайший участник атаки нацелен на цель"/>
+<Translation Original="3 Closest Member Lasso aimed target" Replace="~m~3 Ближайший участник нацелил лассо на цель"/>
+<Translation Original="4 All Members keep their position" Replace="~m~4 Все участники сохраняют свою позицию"/>
+<Translation Original="5 All Members will come to you" Replace="~m~5 Все участники придут к вам"/>
+<Translation Original="Cam Settings" Replace="Настройки камеры"/>
+<Translation Original="Creator Cam" Replace="Создатель камеры"/>
+<Translation Original="Object Database" Replace="База данных объектов"/>
+<Translation Original="All Objects" Replace="Все объекты"/>
+<Translation Original="Search Objects" Replace="Поиск объектов"/>
+
+//Животное
+<Translation Original="LEGENDARY ANIMALS" Replace="ЛЕГЕНДАРНЫЕ ЖИВОТНЫЕ"/>
+<Translation Original="Legendary Animals" Replace="Легендарные животные"/>
+<Translation Original="Alligator Little" Replace="Аллигатор (Маленький)"/>
+<Translation Original="Alligator Legendary" Replace="Аллигатор (Легендарный)"/>
+<Translation Original="Alligator Medium" Replace="Аллигатор (Средний)"/>
+<Translation Original="Armadillo" Replace="Броненосец"/>
+<Translation Original="Badger" Replace="Барсук"/>
+<Translation Original="Bat" Replace="Летучая мышь"/>
+<Translation Original="Bear Black" Replace="Медведь черный"/>
+<Translation Original="Bear" Replace="Медведь"/>
+<Translation Original="Beaver" Replace="Бобёр"/>
+<Translation Original="Big Horn Ram" Replace="Большой рогатый баран"/>
+<Translation Original="Blue Jay" Replace="Голубая сойка"/>
+<Translation Original="Boar Legendary" Replace="Легендарный кабан"/>
+<Translation Original="Boar" Replace="Кабан"/>
+<Translation Original="Buck" Replace="Олень"/>
+<Translation Original="Buffalo" Replace="Буйвол"/>
+<Translation Original="Buffalo Tatanka" Replace="Буйвол Татанка"/>
+<Translation Original="Bull" Replace="Бык"/>
+<Translation Original="California Condor" Replace="Калифорнийский кондор"/>
+<Translation Original="Cardinal" Replace="Кардинал"/>
+<Translation Original="Carolina Parakeet" Replace="Каролинский попугай"/>
+<Translation Original="Cat" Replace="Кот"/>
+<Translation Original="Cedar Waxwing" Replace="Кедровый свиристель"/>
+<Translation Original="Chicken" Replace="Курица"/>
+<Translation Original="Chipmunk" Replace="Бурундук"/>
+<Translation Original="Cormorant" Replace="Баклан"/>
+<Translation Original="Cougar" Replace="Пума"/>
+<Translation Original="Cow" Replace="Корова"/>
+<Translation Original="Coyote" Replace="Койот"/>
+<Translation Original="Crab" Replace="Краб"/>
+<Translation Original="Whooping Crane" Replace="Кричащий журавль"/>
+<Translation Original="Crawfish" Replace="Раки"/>
+<Translation Original="Crow" Replace="Ворона"/>
+<Translation Original="Deer" Replace="Олень"/>
+<Translation Original="Donkey" Replace="Осел"/>
+<Translation Original="Duck" Replace="Утка"/>
+<Translation Original="Eagle" Replace="Орел"/>
+<Translation Original="Egret" Replace="Белая цапля"/>
+<Translation Original="Elk" Replace="Лось"/>
+<Translation Original="Fox" Replace="Лиса"/>
+<Translation Original="Bullfrog" Replace="Лягушка-бык"/>
+<Translation Original="Gila Monster" Replace="Гильский монстр"/>
+<Translation Original="Goat" Replace="Козел"/>
+<Translation Original="Canada Goose" Replace="Канадский гусь"/>
+<Translation Original="Hawk" Replace="Ястреб"/>
+<Translation Original="Heron" Replace="Цапля"/>
+<Translation Original="Mule" Replace="Мул"/>
+<Translation Original="Desert Iguana" Replace="Пустынная игуана"/>
+<Translation Original="Iguana" Replace="Игуана"/>
+<Translation Original="Javelina" Replace="Джавелина"/>
+<Translation Original="Lion Mangy" Replace="Клыкастый лев"/>
+<Translation Original="Loon" Replace="Гагара"/>
+<Translation Original="Moose" Replace="Лось"/>
+<Translation Original="Muskrat" Replace="Ондатра"/>
+<Translation Original="Oriole" Replace="Иволга"/>
+<Translation Original="Owl" Replace="Сова"/>
+<Translation Original="Ox" Replace="Вол"/>
+<Translation Original="Panther" Replace="Пантера"/>
+<Translation Original="Parrot" Replace="Попугай"/>
+<Translation Original="Pelican" Replace="Пеликан"/>
+<Translation Original="Pheasant" Replace="Фазан"/>
+<Translation Original="Pig" Replace="Свинья"/>
+<Translation Original="Pigeon" Replace="Голубь"/>
+<Translation Original="Possum" Replace="Опоссум"/>
+<Translation Original="Prairie Chicken" Replace="Луговой тетерев"/>
+<Translation Original="Pronghorn" Replace="Вилорог"/>
+<Translation Original="Quali" Replace="Quali"/>
+<Translation Original="Rabbit" Replace="Кролик"/>
+<Translation Original="Raccoon" Replace="Енот"/>
+<Translation Original="Rat" Replace="Крыса"/>
+<Translation Original="Raven" Replace="Ворон"/>
+<Translation Original="Red Footed Booby" Replace="Красноногая олуша"/>
+<Translation Original="Robin" Replace="Зарянка"/>
+<Translation Original="Rooster" Replace="Петух"/>
+<Translation Original="Roseate Spoonbill" Replace="Розовая колпица"/>
+<Translation Original="Seagull" Replace="Чайка"/>
+<Translation Original="Shark Hammerhead" Replace="Акула-молот"/>
+<Translation Original="Shark Tiger" Replace="Тигровая акула"/>
+<Translation Original="Sheep" Replace="Овца"/>
+<Translation Original="Skunk" Replace="Скунс"/>
+<Translation Original="Black Tail Rattle" Replace="Черный хвост погремушки"/>
+<Translation Original="Black Tail Rattle Pelt" Replace="Черная хвостовая шкурка"/>
+<Translation Original="Fer De Lance" Replace="Фер-де-Ланс"/>
+<Translation Original="Fer De Lance Pelt" Replace="Фер-де-Ланс Пелт"/>
+<Translation Original="Red Boa 10ft" Replace="Красный удав 10 футов"/>
+<Translation Original="Red Boa Pelt" Replace="Шкурка красного удава"/>
+<Translation Original="Red Boa" Replace="Красный удав"/>
+<Translation Original="Watersnake" Replace="Водяная змея"/>
+<Translation Original="Watersnake Pelt" Replace="Шкура водяной змеи"/>
+<Translation Original="Snake" Replace="Змея"/>
+<Translation Original="Snake Pelt" Replace="Змеиная шкура"/>
+<Translation Original="Song Bird" Replace="Певчая птица"/>
+<Translation Original="Sparrow" Replace="Воробей"/>
+<Translation Original="Squirrel" Replace="Белка"/>
+<Translation Original="Toad" Replace="Жаба"/>
+<Translation Original="Wild Turkey" Replace="Дикая индейка"/>
+<Translation Original="Eastern Turkey" Replace="Восточная Турция"/>
+<Translation Original="Riogrande Turkey" Replace="Риогранде Турция"/>
+<Translation Original="Sea Turtle" Replace="Морская черепаха"/>
+<Translation Original="Snapping Turtle" Replace="Щелкающая черепаха"/>
+<Translation Original="Vulture" Replace="Стервятник"/>
+<Translation Original="Wolf" Replace="Волк"/>
+<Translation Original="Timber Wolf" Replace="Лесной волк"/>
+<Translation Original="Gray Wolf" Replace="Серый волк"/>
+<Translation Original="Pileated Woodpecker" Replace="Ворсистый дятел"/>
+<Translation Original="Redbellied Woodpecker" Replace="Краснобрюхий дятел"/>
+<Translation Original="Fishes" Replace="Рыбы"/>
+<Translation Original="Bluegill (Medium)" Replace="Синежаберный (Средний)"/>
+<Translation Original="Bluegill (Small)" Replace="Синежаберный (Маленький)"/>
+<Translation Original="Bull Head Cat (Medium)" Replace="Кошка с головой быка (Средняя)"/>
+<Translation Original="Bull Head Cat (Small)" Replace="Кошка с головой быка (Маленькая)"/>
+<Translation Original="Chain Pickerel (Medium)" Replace="Цепной щукарь (Средний)"/>
+<Translation Original="Chain Pickerel (Small)" Replace="Цепной щукарь (Малый)"/>
+<Translation Original="Channel Catfish (Large)" Replace="Канальный сом (Крупный)"/>
+<Translation Original="Channel Catfish (XL)" Replace="Канальный сом (XL)"/>
+<Translation Original="Lake Sturgeon" Replace="Озерный осетр"/>
+<Translation Original="Large Mouth Bass (Large)" Replace="Крупноротый окунь (Крупный)"/>
+<Translation Original="Large Mouth Bass (Medium)" Replace="Крупноротый окунь (Средний)"/>
+<Translation Original="Long Nose Gar (Large)" Replace="Длинноносый гар (Большой)"/>
+<Translation Original="Muskie (Large)" Replace="Muskie (Large)"/>
+<Translation Original="Northern Pike (Large)" Replace="Северная щука (Крупная)"/>
+<Translation Original="Perch (Medium)" Replace="Окунь (Средний)"/>
+<Translation Original="Perch (Small)" Replace="Окунь (Маленький)"/>
+<Translation Original="Rainbow Trout (Large)" Replace="Радужная форель (Крупная)"/>
+<Translation Original="Rainbow Trout (Medium)" Replace="Радужная форель (Средняя)"/>
+<Translation Original="Redfin Pickerel (Medium)" Replace="Красноперка (Средняя)"/>
+<Translation Original="Redfin Pickerel (Small)" Replace="Красноперка (Малая)"/>
+<Translation Original="Rock Bass (Medium)" Replace="Рок-бас (Средний)"/>
+<Translation Original="Rock Bass (Small)" Replace="Рок-бас (Маленький)"/>
+<Translation Original="Salmon Sockeye (Large)" Replace="Лосось сокке (Большой)"/>
+<Translation Original="Salmon Sockeye (Medium-Large)" Replace="Лосось сокке (Средний и крупный)"/>
+<Translation Original="Salmon Sockeye (Medium)" Replace="Лосось сокке (Средний)"/>
+<Translation Original="Small Mouth Bass (Large)" Replace="Мелкоротый окунь (Крупный)"/>
+<Translation Original="Small Mouth Bass (Medium)" Replace="Мелкоротый окунь (Средний)"/>
+<Translation Original="Dogs" Replace="Собаки"/>
+<Translation Original="American Foxhound" Replace="Американский фоксхаунд"/>
+<Translation Original="Australian Shepherd" Replace="Австралийская овчарка"/>
+<Translation Original="Bluetick Coonhound" Replace="Блютик-кунхаунд"/>
+<Translation Original="Catahoula Cur" Replace="Дворняжка Катахула"/>
+<Translation Original="Ches Bay Retriever" Replace="Чесапик-бей-ретривер"/>
+<Translation Original="Hobo" Replace="Бродяга"/>
+<Translation Original="Hound" Replace="Гончая"/>
+<Translation Original="Husky" Replace="Хаски"/>
+<Translation Original="Labrador" Replace="Лабрадор"/>
+<Translation Original="Lion" Replace="Лев"/>
+<Translation Original="Poodle" Replace="Пудель"/>
+<Translation Original="Rough Collie" Replace="Грубая колли"/>
+<Translation Original="Rufus" Replace="Руфус"/>
+<Translation Original="Street" Replace="Улица"/>
+
+//Легенда
+<Translation Original="Bull Gator" Replace="Бык Аллигатор"/>
+<Translation Original="Grizzly Bear" Replace="Медведь гризли"/>
+<Translation Original="Bison" Replace="Бизон"/>
+<Translation Original="White Bison" Replace="Белый бизон"/>
+<Translation Original="Teca Gator" Replace="Аллигатор Тека"/>
+<Translation Original="Sun Gator" Replace="Солнечный аллигатор"/>
+<Translation Original="Banded Gator" Replace="Полосатый аллигатор"/>
+<Translation Original="Owiza Bear" Replace="Медведь Овиза"/>
+<Translation Original="Ridgeback Spirit Bear" Replace="Риджбек духовный медведь"/>
+<Translation Original="Golden Spirit Bear" Replace="Золотой духовный медведь"/>
+<Translation Original="Zizi Beaver" Replace="Зизи бобер"/>
+<Translation Original="Moon Beaver" Replace="Лунный бобер"/>
+<Translation Original="Night Beaver" Replace="Ночной бобер"/>
+<Translation Original="Gabbro Horn Ram" Replace="Габбро Горн Рам"/>
+<Translation Original="Chalk Horn Ram" Replace="Мел роговой баран"/>
+<Translation Original="Rutile Horn Ram" Replace="Рутиловый рогатый баран"/>
+<Translation Original="Cogi Boar" Replace="Кабан Коги"/>
+<Translation Original="Wakpa Boar" Replace="Кабан Вакпа"/>
+<Translation Original="Icahi Boar" Replace="Кабан Икахи"/>
+<Translation Original="Mud Runner Buck" Replace="Грязевой бегун Бак"/>
+<Translation Original="Snow Buck" Replace="Снежный олень"/>
+<Translation Original="Shadow Buck" Replace="Теневой олень"/>
+<Translation Original="Tatanka Bison" Replace="Бизoн Тaтaнкa"/>
+<Translation Original="Winyan Bison" Replace="Бизон Виньян"/>
+<Translation Original="Payta Bison" Replace="Бизон Пайта"/>
+<Translation Original="Iguga Cougar" Replace="Iguga Cougar"/>
+<Translation Original="Maza Cougar" Replace="Maza Cougar"/>
+<Translation Original="Sapa Cougar" Replace="Sapa Cougar"/>
+<Translation Original="Red Streak Coyote" Replace="Красный полосатый койот"/>
+<Translation Original="Midnight Paw Coyote" Replace="Полуночный койот"/>
+<Translation Original="Milk Coyote" Replace="Молочный койот"/>
+<Translation Original="Katata Elk" Replace="Лось Катата"/>
+<Translation Original="Ozula Elk" Replace="Лось Озула"/>
+<Translation Original="Inahme Elk" Replace="Лось Инахме"/>
+<Translation Original="Ota Fox" Replace="Ота лиса"/>
+<Translation Original="Marble Fox" Replace="Мраморная лиса"/>
+<Translation Original="Cross Fox" Replace="Крестовая лиса"/>
+<Translation Original="Snowflake Moose" Replace="Лось со снежинками"/>
+<Translation Original="Knight Moose" Replace="Рыцарский лось"/>
+<Translation Original="Ruddy Moose" Replace="Румяный лось"/>
+<Translation Original="Nightwalker Panther" Replace="Ночная пантера"/>
+<Translation Original="Ghost Panther" Replace="Призрачная пантера"/>
+<Translation Original="Iwakta Panther" Replace="Ивакта Пантера"/>
+<Translation Original="Emerald Wolf" Replace="Изумрудный волк"/>
+<Translation Original="Onyx Wolf" Replace="Ониксовый волк"/>
+<Translation Original="Moonstone Wolf" Replace="Лунный каменный волк"/>
+
+//Растение
+<Translation Original="Acuna Star Orchid" Replace="Звездная орхидея Акуна"/>
+<Translation Original="Alaskan Ginseng" Replace="Аляскинский женьшень"/>
+<Translation Original="American Ginseng" Replace="Американский женьшень"/>
+<Translation Original="Bay Bolete" Replace="Заливной боровик"/>
+<Translation Original="Black Currant" Replace="Черная смородина"/>
+<Translation Original="Black berry" Replace="Ежевика"/>
+<Translation Original="Burdock Root" Replace="Корень лопуха"/>
+<Translation Original="Chanterelles" Replace="Лисички"/>
+<Translation Original="Cigar Orchid" Replace="Сигарная орхидея"/>
+<Translation Original="Clam Shell Orchid" Replace="Орхидея из раковины моллюска"/>
+<Translation Original="Common Bulrush" Replace="Обыкновенный камыш"/>
+<Translation Original="Creeping Thyme" Replace="Ползучий тимьян"/>
+<Translation Original="Crows Garlic" Replace="~COLOR_RED~Вороний чеснок"/>
+<Translation Original="Desert Sage" Replace="Шалфей пустынный"/>
+<Translation Original="Dragons Orchid" Replace="Драконья орхидея"/>
+<Translation Original="English Mace" Replace="Английская булава"/>
+<Translation Original="Evergreen Huckleberry" Replace="Вечнозеленая Гекльберри"/>
+<Translation Original="Ghost Orchid" Replace="Призрачная орхидея"/>
+<Translation Original="Golden Currant" Replace="Золотистая смородина"/>
+<Translation Original="Hummingbird Sage" Replace="Шалфей Колибри"/>
+<Translation Original="Indian Tobacco" Replace="Индийский табак"/>
+<Translation Original="Lady Night Orchid" Replace="Орхидея ночная леди"/>
+<Translation Original="Lady Slipper Orchid" Replace="Орхидея дамская туфелька"/>
+<Translation Original="Milkweed" Replace="Молочай"/>
+<Translation Original="Moccasin Orchid" Replace="Мокасиновая орхидея"/>
+<Translation Original="Night Scented Orchid" Replace="Ночная душистая орхидея"/>
+<Translation Original="Oregano" Replace="Душица"/>
+<Translation Original="Orleander Sage" Replace="Орлеандровый шалфей"/>
+<Translation Original="Parasol Mushroom" Replace="Гриб зонтик"/>
+<Translation Original="Prairie Poppy" Replace="Прерийный мак"/>
+<Translation Original="Queens Orchid" Replace="Королевская орхидея"/>
+<Translation Original="Rams Head" Replace="Голова барана"/>
+<Translation Original="Rat Tail Orchid" Replace="Орхидея крысиный хвост"/>
+<Translation Original="Red Raspberry" Replace="Красная малина"/>
+<Translation Original="Red Sage" Replace="Красный шалфей"/>
+<Translation Original="Saltbush" Replace="~COLOR_RED~Соляной куст"/>
+<Translation Original="Sparrows Orchid" Replace="Воробьиная орхидея"/>
+<Translation Original="Spider Orchid" Replace="~COLOR_RED~Паучья орхидея"/>
+<Translation Original="Vanilla Orchid" Replace="Ванильная орхидея"/>
+<Translation Original="Violet Snowdrop" Replace="Фиолетовый подснежник"/>
+<Translation Original="Wild Carrot" Replace="Дикая морковь"/>
+<Translation Original="Wild Feverfew" Replace="Дикая лихорадка"/>
+<Translation Original="Wild Mint" Replace="Дикая мята"/>
+<Translation Original="Wintergreen berry" Replace="Зимнезеленая ягода"/>
+<Translation Original="Yarrow" Replace="Тысячелистник"/>
+
+//Имущество
+<Translation Original="Breach Cannon" Replace="Разрывная пушка"/>
+<Translation Original="Gatling Gun" Replace="Пулемет Гатлинга"/>
+<Translation Original="Gatling Maxim 02" Replace="Гатлинг Максим 02"/>
+<Translation Original="Hotchkiss Cannon" Replace="Пушка Гочкиса"/>
+
+//Мир
+<Translation Original="Time" Replace="Время"/>
+<Translation Original="Weather" Replace="Погода"/>
+<Translation Original="Water" Replace="Вода"/>
+<Translation Original="Cloud Editor" Replace="Редактор облаков"/>
+<Translation Original="Ped Manager" Replace="Пешеходный менеджер"/>
+<Translation Original="Vehicle Manager" Replace="Транспортный менеджер"/>
+<Translation Original="Object Manager" Replace="Менеджер объектов"/>
+<Translation Original="Tornado & Black Hole" Replace="Торнадо и черная дыра"/>
+<Translation Original="IPL Loader" Replace="IPL Загрузчик"/>
+<Translation Original="Disable Interior Lightning" Replace="Отключить внутреннее освещение"/>
+<Translation Original="Firework Mode" Replace="Режим фейерверка"/>
+<Translation Original="Giant Mode" Replace="Гигантский режим"/>
+<Translation Original="No Gravity" Replace="Нет гравитации"/>
+<Translation Original="Decrease Ped Population" Replace="Снижение численности пешеходов"/>
+<Translation Original="Decrease Vehicle Population" Replace="Уменьшить количество транспорта"/>
+<Translation Original="Delete All Trains" Replace="Удалить все поезда"/>
+<Translation Original="Delete All Pickups" Replace="Удалить все подборки"/>
+<Translation Original="Area Scale" Replace="Масштаб области"/>
+<Translation Original="Clear Area" Replace="Очистить область"/>
+<Translation Original="Cleanup Area" Replace="Зона очистки"/>
+<Translation Original="Quick Camp" Replace="Быстрый лагерь"/>
+<Translation Original="Teleport to Me" Replace="Телепортировать ко мне"/>
+<Translation Original="Jump" Replace="Прыгать"/>
+<Translation Original="Run to Me" Replace="Беги ко мне"/>
+<Translation Original="Hands Up" Replace="Руки вверх"/>
+<Translation Original="Cower" Replace="Сжаться"/>
+<Translation Original="Explode" Replace="Взорвать"/>
+<Translation Original="Kill" Replace="Убить"/>
+<Translation Original="Kill Enemies" Replace="Убить врагов"/>
+<Translation Original="Explode Enemies" Replace="Взорвать врагов"/>
+<Translation Original="Recruit as Bodyguards" Replace="Нанимать телохранителей"/>
+<Translation Original="Recruit pool as Bodyguards" Replace="Набор персонала в качестве телохранителей"/>
+<Translation Original="Add pool to Posse" Replace="Добавить бассейн в Поссе"/>
+<Translation Original="Hostile Peds" Replace="Враждебные пешеходы"/>
+<Translation Original="Ped Scanner" Replace="Пешеходный сканер"/>
+<Translation Original="Delete All" Replace="Удалить все"/>
+<Translation Original="Reset Weather" Replace="Сбросить погоду"/>
+<Translation Original="Freeze" Replace="Заморозить"/>
+<Translation Original="Randomize" Replace="Случайный"/>
+<Translation Original="Random Thunderbolt" Replace="Случайный удар молнии"/>
+<Translation Original="Windy" Replace="Ветрено"/>
+<Translation Original="Sunny" Replace="Солнечно"/>
+<Translation Original="Misty" Replace="Туманно"/>
+<Translation Original="Fog" Replace="Туман"/>
+<Translation Original="Clouds" Replace="Облачно"/>
+<Translation Original="Overcast" Replace="Пасмурная погода"/>
+<Translation Original="Overcast Dark" Replace="Пасмурная тьма"/>
+<Translation Original="Drizzle" Replace="Изморозь"/>
+<Translation Original="Rain" Replace="Дождь"/>
+<Translation Original="Thunder" Replace="Гром"/>
+<Translation Original="Thunderstorm" Replace="Гроза"/>
+<Translation Original="Hurricane" Replace="Ураган"/>
+<Translation Original="Shower" Replace="Ливень"/>
+<Translation Original="Hail" Replace="Град"/>
+<Translation Original="Sleet" Replace="Слякоть"/>
+<Translation Original="Snow Clearing" Replace="Очистка снега"/>
+<Translation Original="Snow" Replace="Снег"/>
+<Translation Original="Blizzard" Replace="Снежная буря"/>
+<Translation Original="Ground Blizzard" Replace="Наземная метель"/>
+<Translation Original="Whiteout" Replace="Белая мгла"/>
+<Translation Original="Sandstorm" Replace="Песчаная буря"/>
+<Translation Original="Wind Speed" Replace="Скорость ветра"/>
+<Translation Original="Rain Level" Replace="Уровень дождя"/>
+<Translation Original="Snow Level" Replace="Уровень снега"/>
+<Translation Original="Guarma Horizon" Replace="Горизонт Гуармы"/>
+<Translation Original="Halloween Override" Replace="Переопределение хэллоуина"/>
+<Translation Original="Snow Mode" Replace="Снежный режим"/>
+<Translation Original="Coverage Type" Replace="Тип покрытия"/>
+<Translation Original="Environment" Replace="Окружающая обстановка"/>
+<Translation Original="Prediction" Replace="Прогноз"/>
+<Translation Original="Temperature" Replace="Температура"/>
+<Translation Original="Wind" Replace="Ветер"/>
+<Translation Original="Hour" Replace="Час"/>
+<Translation Original="Minute" Replace="Минута"/>
+<Translation Original="Second" Replace="Секунда"/>
+<Translation Original="Day" Replace="День"/>
+<Translation Original="Month" Replace="Месяц"/>
+<Translation Original="Year" Replace="Год"/>
+<Translation Original="Milliseconds per Game Minute" Replace="Миллисекунды в минуту игры"/>
+<Translation Original="Force Milliseconds per Game Minute" Replace="Силовые миллисекунды в минуту игры"/>
+<Translation Original="Stop Time" Replace="Остановить время"/>
+<Translation Original="Time Cycle" Replace="Временной цикл"/>
+<Translation Original="Set Time" Replace="Установить время"/>
+<Translation Original="Sunrise" Replace="Восход"/>
+<Translation Original="Midday" Replace="Полдень"/>
+<Translation Original="Sunset" Replace="Закат"/>
+<Translation Original="Midnight" Replace="Полночь"/>
+<Translation Original="Sync System Time" Replace="Синхронизация системного времени"/>
+<Translation Original="Timelapse" Replace="Таймлапс"/>
+<Translation Original="Timelapse mode" Replace="Режим таймлапса"/>
+<Translation Original="Timelapse Toggle" Replace="Таймлапс переключения"/>
+<Translation Original="Guarma Water" Replace="Вода Гуарма"/>
+<Translation Original="Guarma water and hurricane weather needed." Replace="Необходима вода для гуармы и ураганная погода."/>
+<Translation Original="Guarma Hurricane Water" Replace="Ураганная вода Гуарма"/>
+<Translation Original="Walk Underwater" Replace="Прогулка под водой"/>
+<Translation Original="All Water" Replace="Вся вода"/>
+<Translation Original="Ocean" Replace="Океан"/>
+<Translation Original="Disable Ocean" Replace="Отключить океан"/>
+<Translation Original="Clear Ocean" Replace="Чистый океан"/>
+<Translation Original="Disable" Replace="Отключить"/>
+<Translation Original="Clear" Replace="Очистить"/>
+<Translation Original="Remove ocean density." Replace="Убрать плотность океана."/>
+<Translation Original="Remove all water." Replace="Удалите всю воду."/>
+<Translation Original="Remove Clouds" Replace="Удалить облака"/>
+<Translation Original="Layer" Replace="Слой"/>
+<Translation Original="Noise" Replace="Шум"/>
+<Translation Original="Position" Replace="Позиция"/>
+<Translation Original="Override" Replace="Переопределение"/>
+<Translation Original="Height" Replace="Высота"/>
+<Translation Original="Cloudlapse" Replace="Задержка облаков"/>
+<Translation Original="Toggle" Replace="Тумблер"/>
+<Translation Original="Boost Forward" Replace="Ускорение вперед"/>
+<Translation Original="Vehicle Scanner" Replace="Транспортный сканер"/>
+<Translation Original="Ascend" Replace="Восхождение"/>
+<Translation Original="Object Scanner" Replace="Сканер объектов"/>
+<Translation Original="Meteor Shower" Replace="Метеоритный дождь"/>
+<Translation Original="Tornado" Replace="Торнадо"/>
+<Translation Original="Black Hole" Replace="Черная дыра"/>
+<Translation Original="Force" Replace="Сила"/>
+<Translation Original="Force Type" Replace="Тип силы"/>
+<Translation Original="Options" Replace="Опции"/>
+<Translation Original="Delete entities" Replace="Удалить объекты"/>
+<Translation Original="Attraction Settings" Replace="Настройки аттракциона"/>
+<Translation Original="Map Sets" Replace="Наборы карт"/>
+<Translation Original="Adler Ranch" Replace="Ранчо Адлера"/>
+<Translation Original="House near Valentine" Replace="Дом рядом с Валентином"/>
+<Translation Original="House Scarlett Meadows" Replace="Дом Скарлетт Медоуз"/>
+<Translation Original="Kidge View" Replace="Кидж Вью"/>
+<Translation Original="Blackwater Build Progress" Replace="Прогресс в строительстве Блэкуотера"/>
+<Translation Original="Guarma Ship" Replace="Корабль Гуармы"/>
+<Translation Original="Grand Korrigan" Replace="Великий Корриган"/>
+
+//Разное
+<Translation Original="Mp3 Player" Replace="MP3 Плеер"/>
+<Translation Original="Game Music" Replace="Игровая музыка"/>
+<Translation Original="Mobile Theater" Replace="Мобильный театр"/>
+<Translation Original="Cutscene Player" Replace="Катсцена игрока"/>
+<Translation Original="Friendlist" Replace="Список друзей"/>
+<Translation Original="Minigames" Replace="Мини-игры"/>
+<Translation Original="Overlay Settings" Replace="Настройки оверлея"/>
+<Translation Original="Gameplay cam zoom" Replace="Увеличение игровой камеры"/>
+<Translation Original="Top-Down Cam" Replace="Камера сверху вниз"/>
+<Translation Original="No Clip" Replace="No Clip"/>
+<Translation Original="Air Walk / Drive" Replace="Воздушная прогулка"/>
+<Translation Original="Freecam" Replace="Свободная камера"/>
+<Translation Original="Cap FPS" Replace="Ограничение FPS"/>
+<Translation Original="Disable Idle Music" Replace="Отключить музыку при ожидании"/>
+<Translation Original="Pause Game" Replace="Приостановить игру"/>
+<Translation Original="Decrease Graphics" Replace="Сниженная графика"/>
+<Translation Original="Disable New Austin Sniper" Replace="Отключить снайпера (Нью-Остин)"/>
+<Translation Original="Disable Guarma Sniper" Replace="Отключить снайпера (Гуарма)"/>
+<Translation Original="Disable Guard Zones" Replace="Отключить охранные зоны"/>
+<Translation Original="Fix Mission markers" Replace="Исправить маркеры миссии"/>
+<Translation Original="Send Console Message" Replace="Отправить сообщение в консоль"/>
+<Translation Original="About Rampage" Replace="О Rampage"/>
+<Translation Original="Dev" Replace="Dev"/>
+<Translation Original="OVERLAY" Replace="НАЛОЖЕНИЕ"/>
+<Translation Original="Script Monitor" Replace="Монитор скриптов"/>
+<Translation Original="Script Loader" Replace="Загрузчик скриптов"/>
+<Translation Original="Script Terminator" Replace="Терминатор скрипта"/>
+<Translation Original="Undead Nightmare II" Replace="Кошмар нежити II"/>
+<Translation Original="Display FPS" Replace="Отображение FPS"/>
+<Translation Original="Display Day & Time (Realtime)" Replace="Отображение дня и времени (в реале)"/>
+<Translation Original="Display Time (Ingame)" Replace="Отображение времени (в игре)"/>
+<Translation Original="Display Coords" Replace="Координаты дисплея"/>
+<Translation Original="Display Temperature" Replace="Отображение температуры"/>
+<Translation Original="Display Waypoint Distance" Replace="Отображать расстояние до путевой точки"/>
+<Translation Original="Always show player cores" Replace="Всегда показывать ядра игрока"/>
+<Translation Original="Always show horse cores" Replace="Всегда показывать ядра лошадей"/>
+<Translation Original="Hide HUD" Replace="Скрыть HUD"/>
+<Translation Original="Hide Radar" Replace="Скрыть радар"/>
+<Translation Original="Disable Notifications" Replace="Отключить уведомления"/>
+<Translation Original="Minimap Zoom" Replace="Увеличить миникарту"/>
+<Translation Original="Enable Theater" Replace="Включить театр"/>
+<Translation Original="Shows" Replace="Показы"/>
+<Translation Original="Modern Medicine" Replace="Современная медицина"/>
+<Translation Original="Farmers Daughter" Replace="Дочь фермера"/>
+<Translation Original="Sketching for Sweetheart" Replace="Набросок для возлюбленной"/>
+<Translation Original="World Strongest Man" Replace="Сильнейший человек мира"/>
+<Translation Original="Direct Current Damnation" Replace="Проклятие постоянного тока"/>
+<Translation Original="Secret of Man flight" Replace="Тайна полета человека"/>
+<Translation Original="Josiah Blackwater" Replace="Джосайя Блэкуотер"/>
+<Translation Original="Saviors and Savages" Replace="Спасители и дикари"/>
+<Translation Original="Ghost Story" Replace="История призраков"/>
+<Translation Original="Pause" Replace="Пауза"/>
+<Translation Original="Stop current" Replace="Остановить текущий"/>
+<Translation Original="Resume" Replace="Возобновить"/>
+<Translation Original="Loop" Replace="Цикл"/>
+<Translation Original="Play all" Replace="Играть все"/>
+<Translation Original="Volume (db)" Replace="Громкость (дБ)"/>
+<Translation Original="Stop Music Events" Replace="Остановить музыкальные события"/>
+<Translation Original="Load Audio Bank" Replace="Загрузить аудиобанк"/>
+
+//Разное
+<Translation Original="CORES" Replace="ЯДРА"/>
+<Translation Original="HONOR" Replace="ЧЕСТЬ"/>
+<Translation Original="LOOT" Replace="ДОБЫЧА"/>
+<Translation Original="Misc" Replace="Разное"/>
+<Translation Original="Cash" Replace="Деньги"/>
+<Translation Original="Loot" Replace="Добыча"/>
+<Translation Original="Honor" Replace="Честь"/>
+<Translation Original="Bounty" Replace="Награда"/>
+<Translation Original="Unlocks" Replace="Разблокировщик"/>
+<Translation Original="Collectibles" Replace="Коллекционные предметы"/>
+<Translation Original="Cores" Replace="Ядра"/>
+<Translation Original="Reveal Map" Replace="Раскрыть карту"/>
+<Translation Original="Set Weight" Replace="Установленный вес"/>
+<Translation Original="Reset Journal" Replace="Сбросить журнал"/>
+<Translation Original="Player Stats" Replace="Статистика"/>
+<Translation Original="Deaths" Replace="Смертей"/>
+<Translation Original="Kills" Replace="Убийств"/>
+<Translation Original="Headshots" Replace="Выстрелов в голову"/>
+<Translation Original="Shots" Replace="Выстрелы"/>
+<Translation Original="Completed Missions" Replace="Завершенные миссии"/>
+<Translation Original="Crafted Items" Replace="Создаваемые предметы"/>
+<Translation Original="Looted Peds" Replace="Разграбленые пешеходы"/>
+<Translation Original="Times Cheated" Replace="Обманутые времена"/>
+<Translation Original="Total Bounty" Replace="Общая награда"/>
+<Translation Original="Cash Earned" Replace="Заработанные деньги"/>
+<Translation Original="Cash Spend" Replace="Денежные расходы"/>
+<Translation Original="Playing Time" Replace="Время игры"/>
+<Translation Original="Completion" Replace="Завершение"/>
+<Translation Original="Add Cash" Replace="Добавить наличные"/>
+<Translation Original="Remove Cash" Replace="Удалить наличные"/>
+<Translation Original="Drop Cash" Replace="Наличные"/>
+<Translation Original="Amount" Replace="Сумма"/>
+<Translation Original="Model" Replace="Модель"/>
+<Translation Original="Cash Bag Drop" Replace="Денежный мешок"/>
+<Translation Original="Money Gun" Replace="Денежный пистолет"/>
+<Translation Original="Total Money dropped " Replace="Всего выпало денег "/>
+<Translation Original="Misc Drop" Replace="Выпадение"/>
+<Translation Original="Rain Weapons" Replace="Дождевое оружие"/>
+<Translation Original="Drop Ammo" Replace="Сбросить патроны"/>
+<Translation Original="Give Items" Replace="Дарить предметы"/>
+<Translation Original="Spawn Goodie Chest" Replace="Спаун хорошего сундука"/>
+<Translation Original="Spawn Med Chest" Replace="Спаун сундука с лекарствами"/>
+<Translation Original="Spawn Cash Chest" Replace="Спаун сундука с наличными"/>
+<Translation Original="Unlimited Items" Replace="Неограниченное количество предметов"/>
+<Translation Original="Max Items" Replace="Максимум предметов"/>
+<Translation Original="Custom Input (StringHash)" Replace="Пользовательский ввод (хэш-строка)"/>
+<Translation Original="Current Honor" Replace="Текущая честь"/>
+<Translation Original="Set Honor" Replace="Установить честь"/>
+<Translation Original="Add Honor" Replace="Добавить честь"/>
+<Translation Original="Remove Honor" Replace="Убрать честь"/>
+<Translation Original="Add Positive" Replace="Добавить позитив"/>
+<Translation Original="Add Negative" Replace="Добавить негатив"/>
+<Translation Original="Custom Honor" Replace="Пользовательская честь"/>
+<Translation Original="Current Bounty" Replace="Текущее вознаграждение"/>
+<Translation Original="Bounty Value" Replace="Ценность щедрости"/>
+<Translation Original="Increase Bounty" Replace="Увеличение щедрости"/>
+<Translation Original="Decrease Bounty" Replace="Уменьшение щедрости"/>
+<Translation Original="Clear Bounty" Replace="Очистить щедрость"/>
+<Translation Original="States" Replace="Состояния"/>
+<Translation Original="Lemoyne" Replace="Лемойн"/>
+<Translation Original="West Elizabeth" Replace="Вест Элизабет"/>
+<Translation Original="New Hanover" Replace="Нью Ганновер"/>
+<Translation Original="Ambarino" Replace="Амбарино"/>
+<Translation Original="New Austin" Replace="Нью-Остин"/>
+<Translation Original="Cheat Codes" Replace="Чит коды"/>
+<Translation Original="Dreamcatchers" Replace="Ловцы снов"/>
+<Translation Original="Dino Bones" Replace="Дино кости"/>
+<Translation Original="Rock Carvings" Replace="Наскальные рисунки"/>
+<Translation Original="Exotics" Replace="Экзотики"/>
+<Translation Original="Legendary Animals Locations" Replace="Легендарные локации животных"/>
+<Translation Original="Cigarette Cards" Replace="Сигаретные карточки"/>
+<Translation Original="Auto Collect All" Replace="Авто собрать все"/>
+<Translation Original="Famous Gunslingers" Replace="Знаменитые стрелки"/>
+<Translation Original="Artists and Poets" Replace="Артисты и поэты"/>
+<Translation Original="Vistas of America" Replace="Перспективы Америки"/>
+<Translation Original="Gems of Beauty" Replace="Самоцветы красоты"/>
+<Translation Original="Flora of North America" Replace="Флора Северной Америки"/>
+<Translation Original="Stars of the Stage" Replace="Звезды сцены"/>
+<Translation Original="Fauna of North America" Replace="Фауна Северной Америки"/>
+<Translation Original="Marvels of Travel" Replace="Чудеса путешествий"/>
+<Translation Original="World's Champions" Replace="Чемпионы мира"/>
+<Translation Original="Amazing Inventions" Replace="Удивительные изобретения"/>
+<Translation Original="Add Health Points" Replace="Добавить очки здоровья"/>
+<Translation Original="Add Stamina Points" Replace="Добавить очки выносливости"/>
+<Translation Original="Add Dead Eye Points" Replace="Добавить очки мертвого глаза"/>
+<Translation Original="Permanently" Replace="Постоянно"/>
+<Translation Original="Max Health Core" Replace="Максимальное ядро здоровья"/>
+<Translation Original="Max Stamina Core" Replace="Максимальное ядро ​​выносливости"/>
+<Translation Original="Max Dead Eye Core" Replace="Макс. ядро мертвого глаза"/>
+<Translation Original="Temporary" Replace="Временный"/>
+<Translation Original="Max Health" Replace="Максимальное здоровье"/>
+<Translation Original="Max Dead Eye" Replace="Максимальный мертвый глаз"/>
+<Translation Original="Custom" Replace="Пользовательский"/>
+<Translation Original="Dead Eye Core" Replace="Ядро мертвого глаза"/>
+
+//Предметы
+<Translation Original="Apple" Replace="Яблоко"/>
+<Translation Original="Baked Beans" Replace="Консервированные бобы"/>
+<Translation Original="Bread Roll" Replace="Хлеб"/>
+<Translation Original="Candy" Replace="Конфеты"/>
+<Translation Original="Canned Apricots" Replace="Консервированные персики"/>
+<Translation Original="Canned Corn" Replace="Консервированная кукуруза"/>
+<Translation Original="Canned Salmon" Replace="Консервированный лосось"/>
+<Translation Original="Cheese" Replace="Сыр"/>
+<Translation Original="Chewing Tobaco" Replace="Жевательный табак"/>
+<Translation Original="Chocolate" Replace="Шоколад"/>
+<Translation Original="Cigarettes" Replace="Сигареты"/>
+<Translation Original="Coffee" Replace="Кофе"/>
+<Translation Original="Assorted Biscuits" Replace="Печенье ассорти"/>
+<Translation Original="Corn" Replace="Кукуруза"/>
+<Translation Original="Cracker" Replace="Крекер"/>
+<Translation Original="Fine Brandy" Replace="Бренди"/>
+<Translation Original="Gin" Replace="Джин"/>
+<Translation Original="Guarma Rum" Replace="Ром"/>
+<Translation Original="Hair Tonic" Replace="Тоник для волос"/>
+<Translation Original="Health Cure" Replace="Лекарство"/>
+<Translation Original="Kentucky Bourbon" Replace="Бурбон"/>
+<Translation Original="Miracle Tonic" Replace="Тоник"/>
+<Translation Original="Moonshine" Replace="Самогон"/>
+<Translation Original="Pomade" Replace="Помада"/>
+<Translation Original="Salted Beef" Replace="Соленая говядина"/>
+<Translation Original="Salted Wild Beef" Replace="Соленая дикая говядина"/>
+<Translation Original="Snake Oil" Replace="Змеиное масло"/>
+<Translation Original="Cash Clip" Replace="Зажим для денег"/>
+<Translation Original="Cash Stack" Replace="Денежная стопка"/>
+<Translation Original="Gold Bar" Replace="Золотой слиток"/>
+
+//Разблокировка
+<Translation Original="Unlock Checks" Replace="Разблокировать чеки"/>
+<Translation Original="American Dialogue Receptive" Replace="Восприимчивость к американскому диалогу"/>
+<Translation Original="American Dialogue Trusted" Replace="Доверенный американский диалог"/>
+<Translation Original="Arthurs Grave Scene" Replace="Сцена захоронения Артура"/>
+<Translation Original="Bandit Challenges" Replace="Бандитские испытания"/>
+<Translation Original="Compendium" Replace="Компендиум"/>
+<Translation Original="Content Special Edition" Replace="Специальное издание контента"/>
+<Translation Original="Content Pre-Order Digital" Replace="Предварительный заказ цифрового контента"/>
+<Translation Original="Content Pre-Order Items Redeeme" Replace="Погашение предметов для предварительного заказа контента"/>
+<Translation Original="Content Pre-Order" Replace="Предварительный заказ контента"/>
+<Translation Original="Cross Promotion Hatchet" Replace="Топор перекрестного продвижения"/>
+<Translation Original="Cross Promotion Revolver" Replace="Револьвер перекрестного продвижения"/>
+<Translation Original="Dualwield Weapon" Replace="Двуствольное оружие"/>
+<Translation Original="Edition Special Redeeme" Replace="Специальное выпущенное издание"/>
+<Translation Original="Endless Summer Weapons" Replace="Бесконечное летнее оружие"/>
+<Translation Original="Endless Summer" Replace="Бесконечное лето"/>
+<Translation Original="Explorer Challenges" Replace="Задачи исследователя"/>
+<Translation Original="Explosive Ammo Shotgun" Replace="Дробовик со взрывчатыми патронами"/>
+<Translation Original="Gambler Challenges" Replace="Задачи азартных игроков"/>
+<Translation Original="Guarma Appearance Active" Replace="Внешний вид Гуарма активный"/>
+<Translation Original="Herbalist Challenges" Replace="Задачи травника"/>
+<Translation Original="Horseman Challenges" Replace="Задачи всадника"/>
+<Translation Original="Hunting Challenges" Replace="Задачи охотника"/>
+<Translation Original="Mud3 Killed Witness" Replace="Mud3 убил свидетеля"/>
+<Translation Original="Orbis Day One Redeeme" Replace="Первый день орбиса искуплен"/>
+<Translation Original="Orbis Day One" Replace="Орбис день первый"/>
+<Translation Original="Peds React to Sick Arthur" Replace="Пешеходы реагируют на больного Артура"/>
+<Translation Original="Post Gang 1" Replace="Пост Банда 1"/>
+<Translation Original="RDCH3 Dynamite" Replace="RDCH3 Динамит"/>
+<Translation Original="SP Achievments" Replace="SP Достижения"/>
+<Translation Original="Sharpshooter Challenges" Replace="Снайперские испытания"/>
+<Translation Original="Survivalist Challenges" Replace="Испытания на выживание"/>
+<Translation Original="Weapon Challenges" Replace="Испытания с оружием"/>
+<Translation Original="Weapons" Replace="Оружие"/>
+<Translation Original="Unlock all Weapons" Replace="Разблокируйте все виды оружия"/>
+<Translation Original="Discover Herbs" Replace="Обнаружить травы"/>
+<Translation Original="Discover Horses" Replace="Обнаружить лошадей"/>
+<Translation Original="Discover Animals" Replace="Обнаружить животных"/>
+<Translation Original="Discover Fish" Replace="Обнаружить рыбу"/>
+<Translation Original="Discover Fishes" Replace="Обнаружить рыбы"/>
+<Translation Original="Discover Gangs" Replace="Обнаружить банду"/>
+
+//Секретная техника
+<Translation Original="Bypass Cheat Restrictions" Replace="Обход ограничений на читы"/>
+<Translation Original="Abundance is the dullest desire" Replace="Изобилие - самое скучное желание"/>
+<Translation Original="A simple life, a beautiful death" Replace="Простая жизнь, красивая смерть"/>
+<Translation Original="Greed is American Virtue" Replace="Жадность - добродетель Америки"/>
+<Translation Original="Death is silence" Replace="Смерть - это тишина"/>
+<Translation Original="History is written by fools" Replace="Историю пишут дураки"/>
+<Translation Original="You long for sight and see nothing" Replace="Вы жаждете видеть и ничего не видите"/>
+<Translation Original="Greed is now a virtue" Replace="Жадность теперь добродетель"/>
+<Translation Original="Vanity. All is vanity" Replace="Тщеславие. Все это суета"/>
+<Translation Original="Eat of Knowledge" Replace="Питайтесь знаниями"/>
+<Translation Original="Share" Replace="Поделиться"/>
+<Translation Original="Virtue Unearned is not virtue" Replace="Незаслуженный добродетель - это не добродетель"/>
+<Translation Original="You revel in your disgrace, I see" Replace="Ты наслаждаешься своим позором, я вижу"/>
+<Translation Original="Balance. All is balance" Replace="Баланс. Все есть равновесие"/>
+<Translation Original="Be greedy only for foresight" Replace="Будьте жадными только для того, чтобы быть дальновидными"/>
+<Translation Original="The lucky be strong evermore" Replace="Счастливчики будут сильными навсегда"/>
+<Translation Original="Guide me better" Replace="Направь меня лучше"/>
+<Translation Original="Make me better" Replace="Сделай меня лучше"/>
+<Translation Original="I shall be better" Replace="Я буду лучше"/>
+<Translation Original="I still seek more" Replace="Я все еще стремлюсь к большему"/>
+<Translation Original="I seek and I find" Replace="Я ищу и нахожу"/>
+<Translation Original="You flourish before you die" Replace="Ты расцветаешь перед своей смертью"/>
+<Translation Original="You Seek More Than The World Offers" Replace="Ты ищешь больше, чем предлагает мир"/>
+<Translation Original="Better than my dog" Replace="Лучше, чем моя собака"/>
+<Translation Original="A fool on command" Replace="Дурак по команде"/>
+<Translation Original="Run! Run! Run!" Replace="Беги! Беги! Беги!"/>
+<Translation Original="My kingdom is a horse" Replace="Мое королевство - это лошадь"/>
+<Translation Original="You are a beast built for war" Replace="Ты зверь, созданный для войны"/>
+<Translation Original="The best of the old ways" Replace="Лучшие из старых способов"/>
+<Translation Original="Keep your dreams simple" Replace="Пусть ваши мечты будут простыми"/>
+<Translation Original="Would you be happier as a clown?" Replace="Вы были бы счастливее, будучи клоуном?"/>
+<Translation Original="You want more than you have" Replace="Ты хочешь большего, чем у тебя есть"/>
+<Translation Original="You want something new" Replace="Вы хотите чего-то нового"/>
+<Translation Original="Keep your dreams light" Replace="Сохраняй свои мечты светлыми"/>
+<Translation Original="You want punishment" Replace="Вы хотите наказания"/>
+<Translation Original="You want freedom" Replace="Вы хотите свободы"/>
+<Translation Original="You want everyone to go away" Replace="Вы хотите, чтобы все ушли"/>
+
+//Настройки
+<Translation Original="PREMADE THEMES" Replace="ГОТОВЫЕ ТЕМЫ"/>
+<Translation Original="Registered Hotkeys" Replace="Зарегистрированные горячие клавиши"/>
+<Translation Original="HOTKEY MANAGER" Replace="МЕНЕДЖЕР КЛАВИШ"/>
+<Translation Original="WINDOW MANAGER" Replace="ОКОННЫЙ МЕНЕДЖЕР"/>
+<Translation Original="EXTENDED UI" Replace="РАСШИРЕННЫЙ ИНТЕРФЕЙС"/>
+<Translation Original="THEME" Replace="ТЕМЫ"/>
+<Translation Original="SETTINGS" Replace="НАСТРОЙКИ"/>
+<Translation Original="Search" Replace="Поиск"/>
+<Translation Original="Core" Replace="Основные"/>
+<Translation Original="Window Manager" Replace="Оконный менеджер"/>
+<Translation Original="Extended UI" Replace="Расширенный интерфейс"/>
+<Translation Original="Theme" Replace="Темы"/>
+<Translation Original="Plugins" Replace="Плагины"/>
+<Translation Original="Language" Replace="Языки"/>
+<Translation Original="Hotkey Manager" Replace="Менеджер клавиш"/>
+<Translation Original="Navigation Delay" Replace="Задержка навигации"/>
+<Translation Original="Value Delay" Replace="Задержка значения"/>
+<Translation Original="Search for an Option" Replace="Поиск подходящего варианта"/>
+<Translation Original="Debug" Replace="Отладка"/>
+<Translation Original="Mouse controls" Replace="Управление мышью"/>
+<Translation Original="Controller controls" Replace="Управление контроллером"/>
+<Translation Original="Menu Sounds" Replace="Звуки меню"/>
+<Translation Original="Check for Updates" Replace="Проверить наличие обновлений"/>
+<Translation Original="Emergency Reset" Replace="Аварийный сброс"/>
+<Translation Original="Landing Page" Replace="~COLOR_RED~Целевая страница"/>
+<Translation Original="Open Log" Replace="Открыть журнал"/>
+<Translation Original="Open Sysinfo" Replace="Открыть системную информацию"/>
+<Translation Original="Open Performance" Replace="Открыть производительность"/>
+<Translation Original="Open Hotkeys" Replace="Открыть горячие клавиши"/>
+<Translation Original="Close all" Replace="Закрыть все"/>
+<Translation Original="Reset Windows" Replace="Сброс оконных настроек"/>
+<Translation Original="Open Info" Replace="Открыть информацию"/>
+<Translation Original="Window Activators" Replace="Оконные активаторы"/>
+<Translation Original="Teleport map" Replace="Карта телепорта"/>
+<Translation Original="Spawner Previews" Replace="Превью спавнера"/>
+<Translation Original="Invert Colors" Replace="Инвертировать цвета"/>
+<Translation Original="Smooth Scrolling" Replace="Плавная прокрутка"/>
+<Translation Original="Scroll Anim Speed" Replace="Скорость анимации прокрутки"/>
+<Translation Original="Cursor Hotkey" Replace="Горячая клавиша курсора"/>
+<Translation Original="Cursor Key" Replace="Клавиша курсора"/>
+<Translation Original="Teleport Hotkey" Replace="Горячая клавиша телепорта"/>
+<Translation Original="Teleport Key" Replace="Клавиша телепортации"/>
+<Translation Original="Creator Hotkey" Replace="Горячая клавиша создателя"/>
+<Translation Original="Cmd Hotkey" Replace="Cmd Горячая клавиша"/>
+<Translation Original="Cmd Key" Replace="Cmd Клавиша"/>
+<Translation Original="Save Hotkey Config" Replace="Сохранить конфигурацию горячих клавиш"/>
+<Translation Original="Load Hotkey Config" Replace="Загрузить конфигурацию горячих клавиш"/>
+<Translation Original="Open Key" Replace="Открыть клавишей"/>
+<Translation Original="Gamepad Open Key" Replace="Открыть геймпадом"/>
+<Translation Original="Premade themes" Replace="Готовые темы"/>
+<Translation Original="Save current settings" Replace="Сохранить текущие настройки"/>
+<Translation Original="Load settings from file" Replace="Загрузить настройки из файла"/>
+<Translation Original="Sync Toggle Config" Replace="Конфиг переключения синхронизации"/>
+<Translation Original="Premade themes" Replace="Готовые темы"/>
+<Translation Original="Customize" Replace="Настроить"/>
+<Translation Original="Main Font" Replace="Основной шрифт"/>
+<Translation Original="Body Font" Replace="Шрифт корпуса"/>
+<Translation Original="Enable Header" Replace="Включить заголовок"/>
+<Translation Original="Style" Replace="Стиль"/>
+<Translation Original="Primary" Replace="Основной"/>
+<Translation Original="Title Text" Replace="Текст заголовка"/>
+<Translation Original="Header Color" Replace="Цвет заголовка"/>
+<Translation Original="Scroller Color" Replace="Цвет скроллера"/>
+<Translation Original="RGB Mode" Replace="RGB Режим"/>
+<Translation Original="Menu" Replace="Меню"/>
+<Translation Original="Animated" Replace="Анимированный"/>
+<Translation Original="Menu X axis" Replace="Меню X оси"/>
+<Translation Original="Menu Y axis" Replace="Меню Y оси"/>
+<Translation Original="Restore" Replace="Восстановить"/>
+<Translation Original="Load optimal defaults" Replace="Загрузить значения по умолчанию"/>
+
+//Остальное
+<Translation Original="Default" Replace="По умолчанию"/>
+<Translation Original="Russian" Replace="Русский"/>
+<Translation Original="LANGUAGE" Replace="ЯЗЫКИ"/>
+<Translation Original="PLUGIN" Replace="ПЛАГИН"/>
+<Translation Original="No Plugins found" Replace="Плагины не найдены"/>
+<Translation Original="CORE SETTINGS" Replace="ОСНОВНЫЕ НАСТРОЙКИ"/>
+<Translation Original="TRAINER SEARCH" Replace="ПОИСК ТРЕЙНЕРОВ"/>
+<Translation Original="Min" Replace="Мин"/>
+<Translation Original="STATS" Replace="СТАТИСТИКА"/>
+<Translation Original="LOAD / SAVE SETTINGS" Replace="ЗАГРУЗИТЬ / СОХРАНИТЬ НАСТРОЙКИ"/>
+<Translation Original="Save Toggles" Replace="Сохранить тумблеры"/>
+<Translation Original="Load Toggles" Replace="Загрузить тумблеры"/>
+<Translation Original="Functions" Replace="Функции"/>
+<Translation Original="Submenus" Replace="Подменю"/>
+<Translation Original="Performance" Replace="Производительность"/>
+<Translation Original="Log" Replace="Журнал"/>
+<Translation Original="Sysinfo" Replace="Системная информация"/>
+<Translation Original="Hotkeys" Replace="Горячие клавиши"/>
+<Translation Original="On Foot" Replace="Пешком"/>
+<Translation Original="Roll" Replace="Свернуть"/>
+<Translation Original="Yaw" Replace="Отклонение"/>
+<Translation Original="Pitch" Replace="Уклон"/>
+<Translation Original="DEBUG" Replace="ОТЛАДКА"/>
+<Translation Original="Advanced Logging" Replace="Расширенное ведение журнала"/>
+<Translation Original="Event Logging" Replace="Ведение журнала событий"/>
+<Translation Original="Throw Exception" Replace="Исключение выброса"/>
+<Translation Original="Test Help" Replace="Помощь в тестировании"/>
+<Translation Original="AMBIENT LIGHT" Replace="ОКРУЖАЮЩИЙ СВЕТ"/>
+<Translation Original="Color" Replace="Цвет"/>
+<Translation Original="Range" Replace="Диапазон"/>
+<Translation Original="Brightness" Replace="Яркость"/>	
+<Translation Original="Stop Animation" Replace="Остановить анимацию"/>
+<Translation Original="Search Results" Replace="Результаты"/>
+<Translation Original="Set Hotkey: " Replace="Установить горячую клавишу: "/>
+<Translation Original="MODEL CHANGER [ANIMAL]" Replace="СМЕНА МОДЕЛИ [ЖИВОТНОЕ]"/>
+<Translation Original="MODEL CHANGER [HORSE]" Replace="СМЕНА МОДЕЛИ [ЛОШАДЬ]"/>
+<Translation Original="MODEL CHANGER [HUMAN]" Replace="СМЕНА МОДЕЛИ [ЧЕЛОВЕК]"/>
+<Translation Original="MODEL CHANGER" Replace="СМЕНА МОДЕЛИ"/>
+<Translation Original="OUTFIT SAVER" Replace="СОХРАНИТЬ ОСНАЩЕНИЯ"/>
+<Translation Original="OUTFIT LOADER" Replace="ЗАГРУЗЧИК ОСНАЩЕНИЯ"/>
+<Translation Original="WARDROBE" Replace="ГАРДЕРОБ"/>
+<Translation Original="ANIMATIONS" Replace="АНИМАЦИЯ"/>
+<Translation Original="Dictionaries" Replace="Словари"/>
+<Translation Original="ANIMATION DICTIONARIES" Replace="АНИМАЦИОННЫЕ СЛОВАРИ"/>
+<Translation Original="BOUNTY" Replace="ЩЕДРОСТЬ"/>
+<Translation Original="MONEY" Replace="ДЕНЬГИ"/>
+<Translation Original="Revolver" Replace="Револьвер"/>
+<Translation Original="Total Money Dropped " Replace="Всего сброшено денег "/>
+<Translation Original="Cash Bundle" Replace="Денежный пакет"/>
+<Translation Original="MINIGAMES" Replace="МИНИ-ИГРЫ"/>
+<Translation Original="FRIENDLIST" Replace="СПИСОК ДРУЗЕЙ"/>
+<Translation Original="CUTSCENE PLAYER" Replace="КАТСЦЕНА ИГРОКА"/>
+<Translation Original="MOBILE THEATER" Replace="МОБИЛЬНЫЙ ТЕАТР"/>
+<Translation Original="GAME MUSIC" Replace="ИГРОВАЯ МУЗЫКА"/>
+<Translation Original="Files" Replace="Файлы"/>
+<Translation Original="MP3 PLAYER" Replace="MP3-ПЛЕЕР"/>
+<Translation Original="No playable files found" Replace="Воспроизводимые файлы не найдены"/>
+<Translation Original="Plays: Nothing" Replace="Играет: Ничего"/>
+<Translation Original="TIME" Replace="ВРЕМЯ"/>
+<Translation Original="PED" Replace="ПЕШЕХОД"/>
+<Translation Original="Count" Replace="Подсчет"/>
+<Translation Original="On Screen" Replace="На экране"/>
+<Translation Original="Axis" Replace="Ось"/>
+<Translation Original="WATER" Replace="ВОДА"/>
+<Translation Original="WEATHER" Replace="ПОГОДА"/>
+<Translation Original="PROPSETS" Replace="ОБЪЕКТЫ"/>
+<Translation Original="AIMBOT" Replace="АИМБОТ"/>
+<Translation Original="Ammo:" Replace="Боеприпасы:"/>
+<Translation Original="HORSE LOADER" Replace="КОННЫЙ ЗАГРУЗЧИК"/>
+<Translation Original="MOODS" Replace="НАСТРОЕНИЯ"/>
+<Translation Original="EMOTES" Replace="ЭМОЦИИ"/>
+<Translation Original="COATS" Replace="ПАЛЬТО"/>
+<Translation Original="VESTS" Replace="ЖИЛЕТЫ"/>
+<Translation Original="SHIRTS" Replace="РУБАШКИ"/>
+<Translation Original="TORSOS" Replace="ТОРСЫ"/>
+<Translation Original="NECKWEAR" Replace="ШЕЙНЫЙ УБОР"/>
+<Translation Original="EYES" Replace="ГЛАЗА"/>
+<Translation Original="HAIR" Replace="ВОЛОСЫ"/>
+<Translation Original="HEAD" Replace="ГОЛОВА"/>
+<Translation Original="MASKS" Replace="МАСКИ"/>
+<Translation Original="HATS" Replace="ШЛЯПЫ"/>
+<Translation Original="SEARCH" Replace="ПОИСК"/>
+<Translation Original="Search for a Ped" Replace="Поиск для пешеходов"/>
+<Translation Original="Play Animation" Replace="Воспроизвести анимацию"/>
+<Translation Original="Anim Flags" Replace="Анимированные флаги"/>
+<Translation Original="PLAY SPEECH" Replace="ВОСПРОИЗВЕДЕНИЕ РЕЧИ"/>
+<Translation Original="NECKTIES" Replace="ГАЛСТУКИ"/>
+<Translation Original="TEETH" Replace="ЗУБЫ"/>
+<Translation Original="MUSTACHE" Replace="УСЫ"/>
+<Translation Original="SIDEBURNS" Replace="БАКЕНБАРДЫ"/>
+<Translation Original="DAMAGE PACKS" Replace="ПАКЕТЫ ПОВРЕЖДЕНИЙ"/>
+<Translation Original="Pistol" Replace="Пистолет"/>
+<Translation Original="Rifle" Replace="Винтовка"/>
+<Translation Original="Jewelery Sack" Replace="Ювелирный мешок"/>
+<Translation Original="Goldbar" Replace="Золотой слиток"/>
+<Translation Original="Unlock Journal" Replace="Разблокировать журнал"/>
+<Translation Original="SCRIPT MONITOR" Replace="МОНИТОР СЦЕНАРИЕВ"/>
+<Translation Original="Lang" Replace=""/>
+<Translation Original="ABOUT RAMPAGE" Replace="О RAMPAGE"/>
+<Translation Original="Normal" Replace="Нормальный"/>
+<Translation Original="Name:" Replace="Имя:"/>
+<Translation Original="Commands" Replace="Команды"/>
+<Translation Original="POSSE" Replace="ОТРЯД"/>
+<Translation Original="CANNON SPAWNER" Replace="ПУШЕЧНЫЙ СПАВНЕР"/>
+<Translation Original="Forward" Replace="Вперед"/>
+<Translation Original="Dummy" Replace="Манекен"/>
+<Translation Original="TRAIN CREATOR" Replace="СОЗДАТЕЛЬ ПОЕЗДОВ"/>
 </Table>
